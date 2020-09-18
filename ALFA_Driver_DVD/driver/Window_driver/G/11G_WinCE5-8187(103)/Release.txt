@@ -1,0 +1,7 @@
+Date		Version	Note
+===============+========+=============================================================================================
+2005.12.23	1.01	1. 8187 WinCE driver for ONLY ONE 8187 netcard. 
+2006.1.2	1.02	1. 8187 can connect WPA-PSK AP.(callback fun should not pass another irp in WinCE)
+2006.04.13   	1.03    1. Fix Tx hang
+			2. program memory leak problem
+                        3. Hot unplug

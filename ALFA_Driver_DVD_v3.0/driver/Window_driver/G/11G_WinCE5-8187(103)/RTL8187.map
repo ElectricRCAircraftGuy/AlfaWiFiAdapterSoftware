@@ -1,0 +1,844 @@
+ RTL8187
+
+ Timestamp is 443e4197 (Thu Apr 13 20:18:31 2006)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000d88H .rdata                  CODE
+ 0001:00000d88 00000054H .rdata$debug            CODE
+ 0001:00000ddc 0001ee9dH .text                   CODE
+ 0001:0001fc7c 00000028H .idata$2                CODE
+ 0001:0001fca4 00000014H .idata$3                CODE
+ 0001:0001fcb8 000000f8H .idata$4                CODE
+ 0001:0001fdb0 000003caH .idata$6                CODE
+ 0001:00020180 0000009cH .edata                  CODE
+ 0002:00000000 000000f8H .idata$5                DATA
+ 0002:000000f8 00000004H .CRT$XCA                DATA
+ 0002:000000fc 00000004H .CRT$XCZ                DATA
+ 0002:00000100 00000004H .CRT$XIA                DATA
+ 0002:00000104 00000004H .CRT$XIZ                DATA
+ 0002:00000108 00000004H .CRT$XPA                DATA
+ 0002:0000010c 00000004H .CRT$XPZ                DATA
+ 0002:00000110 00000004H .CRT$XTA                DATA
+ 0002:00000114 00000004H .CRT$XTZ                DATA
+ 0002:00000118 000015ecH .data                   DATA
+ 0002:00001720 00004994H .bss                    DATA
+ 0003:00000000 00000010H .rsrc$01                DATA
+ 0003:00000010 00000000H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:0000001c       ??_C@_0DL@HJEHCBIH@ScheduleRtWorkItem?$CI?$CJ?3?5failed?$CB?5nd@ 1000101c     UsbPlatformWindows.obj
+ 0001:00000058       _szDriverName              10001058     usbdrv.obj
+ 0001:00000068       _gcszRegisterClientDriverId 10001068     usbdrv.obj
+ 0001:00000098       _gcszRegisterClientSettings 10001098     usbdrv.obj
+ 0001:000000c8       _gcszUnRegisterClientDriverId 100010c8     usbdrv.obj
+ 0001:000000fc       _gcszUnRegisterClientSettings 100010fc     usbdrv.obj
+ 0001:00000168       ??_C@_1BC@MPAIGMIO@?$AAU?$AAS?$AAB?$AAD?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10001168     usbdrv.obj
+ 0001:0000017c       ??_C@_1BC@OMOONMJD@?$AAR?$AAT?$AAL?$AA8?$AA1?$AA8?$AA7?$AA1?$AA?$AA@ 1000117c     usbdrv.obj
+ 0001:00000190       ??_C@_1BA@OAOFDDKN@?$AAR?$AAT?$AAL?$AA8?$AA1?$AA8?$AA7?$AA?$AA@ 10001190     usbdrv.obj
+ 0001:000001a0       ??_C@_1BA@NIMGANCP@?$AAH?$AAc?$AAt?$AAT?$AAe?$AAs?$AAt?$AA?$AA@ 100011a0     usb_main.obj
+ 0001:000001b0       ??_C@_1CC@DBNBLHAH@?$AAR?$AAe?$AAg?$AAE?$AAH?$AAC?$AAI?$AAs?$AAp?$AA1?$AAT?$AAx?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 100011b0     usb_main.obj
+ 0001:000001d4       ??_C@_1BM@NKHCFHOC@?$AAb?$AAR?$AAa?$AAt?$AAe?$AAA?$AAd?$AAa?$AAp?$AAt?$AAi?$AAv?$AAe?$AA?$AA@ 100011d4     usb_main.obj
+ 0001:000001f0       ??_C@_1BG@HACBKNJG@?$AAC?$AAW?$AAi?$AAn?$AAM?$AAa?$AAx?$AAM?$AAi?$AAn?$AA?$AA@ 100011f0     usb_main.obj
+ 0001:00000208       ??_C@_1BM@EIKDKMDG@?$AAI?$AAn?$AAi?$AAt?$AAG?$AAa?$AAi?$AAn?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@ 10001208     usb_main.obj
+ 0001:00000224       ??_C@_1CG@EJLJMDK@?$AAH?$AAi?$AAg?$AAh?$AAP?$AAo?$AAw?$AAe?$AAr?$AAM?$AAe?$AAc?$AAh?$AAa?$AAn?$AAi?$AAs?$AAm?$AA?$AA@ 10001224     usb_main.obj
+ 0001:0000024c       ??_C@_1BA@NDLPOABD@?$AAL?$AAe?$AAd?$AAC?$AAt?$AAr?$AAl?$AA?$AA@ 1000124c     usb_main.obj
+ 0001:0000025c       ??_C@_1CM@CODMDEGE@?$AAR?$AAe?$AAg?$AAT?$AAx?$AAH?$AAi?$AAg?$AAh?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AAC?$AAo?$AAu?$AAn@ 1000125c     usb_main.obj
+ 0001:00000288       ??_C@_1CK@NOIBLGND@?$AAR?$AAe?$AAg?$AAT?$AAx?$AAL?$AAo?$AAw?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AAC?$AAo?$AAu?$AAn?$AAt@ 10001288     usb_main.obj
+ 0001:000002b4       ??_C@_0BI@LIDIPJGP@SetRFPowerStateWorkItem?$AA@ 100012b4     usb_main.obj
+ 0001:000002cc       ??_C@_0BF@IILNFCPE@GPIOChangeRFWorkItem?$AA@ 100012cc     usb_main.obj
+ 0001:000002e4       ??_C@_0BF@FOKDJIGB@UpdateBeaconWorkItem?$AA@ 100012e4     usb_main.obj
+ 0001:000002fc       ??_C@_0P@OKAECIHN@NDTEST_WEP_AP7?$AA@ 100012fc     MgntLink.obj
+ 0001:0000030c       ??_C@_0L@GILGHLP@MacAddress?$AA@ 1000130c     MgntActSetParam.obj
+ 0001:00000318       ??_C@_0M@NIOHBOHI@KeyMaterial?$AA@ 10001318     MgntActSetParam.obj
+ 0001:00000328       _Sbox1                     10001328     TKIP.obj
+ 0001:00000728       ??_C@_0CB@OMLDEANJ@12345678123456781234567812345678@ 10001728     Authenticator.obj
+ 0001:00000750       _PH_WPA_V1                 10001750     1x_kmsm_prf.obj
+ 0001:000007b0       ??_C@_0BH@LBONEIMF@Pairwise?5key?5expansion?$AA@ 100017b0     1x_kmsm_prf.obj
+ 0001:000007c8       ??_C@_08BPPJKMC@Hi?5There?$AA@ 100017c8     1x_kmsm_hmac.obj
+ 0001:000007d4       ??_C@_0DM@GBOAMBMO@DE?5A3?556?5A2?5CD?5DD?590?5C7?5A7?5EC?5ED@ 100017d4     1x_kmsm_hmac.obj
+ 0001:00000810       ??_C@_0DM@CGDIBONC@34?5AA?597?53C?5D4?5C4?5DA?5A4?5F6?51E?5EB@ 10001810     1x_kmsm_hmac.obj
+ 0001:0000084c       ??_C@_0DM@JJMPLMFF@84?598?53E?544?51C?53B?5D2?56E?5BA?5AE?54A@ 1000184c     1x_kmsm_hmac.obj
+ 0001:00000888       ??_C@_0DM@NOHJNNGH@A9?599?53E?536?547?506?581?56A?5BA?53E?525@ 10001888     1x_kmsm_hmac.obj
+ 0001:000008c8       ??_C@_0EB@IKAJIMNH@01234567012345670123456701234567@ 100018c8     1x_kmsm_hmac.obj
+ 0001:0000090c       ??_C@_01MCMALHOG@a?$AA@    1000190c     1x_kmsm_hmac.obj
+ 0001:00000910       ??_C@_0DJ@NGDOEGCI@abcdbcdecdefdefgefghfghighijhijk@ 10001910     1x_kmsm_hmac.obj
+ 0001:0000094c       ??_C@_03FIKCJHKP@abc?$AA@  1000194c     1x_kmsm_hmac.obj
+ 0001:00000950       ??_C@_0CN@JIGOFNEE@34AA973C?5D4C4DAA4?5F61EEB2B?5DBAD2@ 10001950     1x_kmsm_hmac.obj
+ 0001:00000980       ??_C@_0CN@DOOFDLCM@84983E44?51C3BD26E?5BAAE4AA1?5F9512@ 10001980     1x_kmsm_hmac.obj
+ 0001:000009b0       ??_C@_0CN@IOPBJMDJ@A9993E36?54706816A?5BA3E2571?57850C@ 100019b0     1x_kmsm_hmac.obj
+ 0001:000009e0       ??_C@_0BL@KMPAPLDB@SwChnlCallback8187WorkItem?$AA@ 100019e0     Hal8187Gen.obj
+ 0001:000009fc       ??_C@_1BG@FAAELMPL@?$AAT?$AAu?$AAr?$AAb?$AAo?$AAS?$AAt?$AAy?$AAl?$AAe?$AA?$AA@ 100019fc     N5C_Init.obj
+ 0001:00000a14       ??_C@_1BE@NEMKCLEK@?$AAT?$AAu?$AAr?$AAb?$AAo?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 10001a14     N5C_Init.obj
+ 0001:00000a28       ??_C@_1M@PHJDBODN@?$AAR?$AAF?$AAO?$AAf?$AAf?$AA?$AA@ 10001a28     N5C_Init.obj
+ 0001:00000a34       ??_C@_1BK@ECLAJJMN@?$AAP?$AAr?$AAe?$AAa?$AAm?$AAb?$AAl?$AAe?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 10001a34     N5C_Init.obj
+ 0001:00000a50       ??_C@_1BG@IINBLCLB@?$AAD?$AAt?$AAi?$AAm?$AAP?$AAe?$AAr?$AAi?$AAo?$AAd?$AA?$AA@ 10001a50     N5C_Init.obj
+ 0001:00000a68       ??_C@_1BG@KBOKBPKF@?$AAA?$AAH?$AA_?$AAB?$AAc?$AAn?$AAI?$AAn?$AAt?$AAv?$AA?$AA@ 10001a68     N5C_Init.obj
+ 0001:00000a80       ??_C@_1BG@MLPHKIEO@?$AAA?$AAc?$AAt?$AAi?$AAn?$AAg?$AAA?$AAs?$AAA?$AAp?$AA?$AA@ 10001a80     N5C_Init.obj
+ 0001:00000a98       ??_C@_1BO@HJJPKADF@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAS?$AAw?$AAB?$AAe?$AAa?$AAc?$AAo?$AAn?$AA?$AA@ 10001a98     N5C_Init.obj
+ 0001:00000ab8       ??_C@_1BM@ODKIMCOG@?$AAP?$AAo?$AAw?$AAe?$AAr?$AAS?$AAa?$AAv?$AAe?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 10001ab8     N5C_Init.obj
+ 0001:00000ad4       ??_C@_1BM@HGIHFLEI@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAP?$AAr?$AAe?$AAA?$AAu?$AAt?$AAh?$AA?$AA@ 10001ad4     N5C_Init.obj
+ 0001:00000af0       ??_C@_1BI@FJLDDKCH@?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 10001af0     N5C_Init.obj
+ 0001:00000b08       ??_C@_1BK@ONDGJFGH@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAK?$AAe?$AAy?$AAI?$AAd?$AA?$AA@ 10001b08     N5C_Init.obj
+ 0001:00000b24       ??_C@_1BK@ICDAMBJH@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAK?$AAe?$AAy?$AAW?$AA3?$AA?$AA@ 10001b24     N5C_Init.obj
+ 0001:00000b40       ??_C@_1BK@DKIMKGPC@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAK?$AAe?$AAy?$AAW?$AA2?$AA?$AA@ 10001b40     N5C_Init.obj
+ 0001:00000b5c       ??_C@_1BK@CIDJAJBM@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAK?$AAe?$AAy?$AAW?$AA1?$AA?$AA@ 10001b5c     N5C_Init.obj
+ 0001:00000b78       ??_C@_1BK@JAIFGOHJ@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAK?$AAe?$AAy?$AAW?$AA0?$AA?$AA@ 10001b78     N5C_Init.obj
+ 0001:00000b94       ??_C@_1BI@KNLLJHMG@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAK?$AAe?$AAy?$AA3?$AA?$AA@ 10001b94     N5C_Init.obj
+ 0001:00000bac       ??_C@_1BI@BFAHPAKD@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAK?$AAe?$AAy?$AA2?$AA?$AA@ 10001bac     N5C_Init.obj
+ 0001:00000bc4       ??_C@_1BI@HLCFPEN@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAK?$AAe?$AAy?$AA1?$AA?$AA@ 10001bc4     N5C_Init.obj
+ 0001:00000bdc       ??_C@_1BI@LPAODICI@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAK?$AAe?$AAy?$AA0?$AA?$AA@ 10001bdc     N5C_Init.obj
+ 0001:00000bf4       ??_C@_1BG@OMCFGKOB@?$AAA?$AAu?$AAt?$AAh?$AAe?$AAn?$AAt?$AAA?$AAl?$AAg?$AA?$AA@ 10001bf4     N5C_Init.obj
+ 0001:00000c0c       ??_C@_1BK@MNPNAJLH@?$AAE?$AAn?$AAc?$AAA?$AAl?$AAg?$AAo?$AAr?$AAi?$AAt?$AAh?$AAm?$AA?$AA@ 10001c0c     N5C_Init.obj
+ 0001:00000c28       ??_C@_1BG@NMOKDBMK@?$AAD?$AAa?$AAt?$AAa?$AAE?$AAn?$AAc?$AAA?$AAl?$AAg?$AA?$AA@ 10001c28     N5C_Init.obj
+ 0001:00000c40       ??_C@_1CM@LIJNNPJJ@?$AAW?$AAi?$AAr?$AAe?$AAl?$AAe?$AAs?$AAs?$AAM?$AAo?$AAd?$AAe?$AA4?$AAS?$AAc?$AAa?$AAn?$AAL?$AAi?$AAs@ 10001c40     N5C_Init.obj
+ 0001:00000c6c       ??_C@_1BO@HLHPKMHF@?$AAF?$AAo?$AAr?$AAc?$AAe?$AAd?$AAD?$AAa?$AAt?$AAa?$AAR?$AAa?$AAt?$AAe?$AA?$AA@ 10001c6c     N5C_Init.obj
+ 0001:00000c8c       ??_C@_1BA@DLAHBHMC@?$AAC?$AAh?$AAa?$AAn?$AAn?$AAe?$AAl?$AA?$AA@ 10001c8c     N5C_Init.obj
+ 0001:00000c9c       ??_C@_1BK@CMGABJAK@?$AAW?$AAi?$AAr?$AAe?$AAl?$AAe?$AAs?$AAs?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 10001c9c     N5C_Init.obj
+ 0001:00000cb8       ??_C@_1BI@HHAPDEFG@?$AAC?$AAh?$AAa?$AAn?$AAn?$AAe?$AAl?$AAP?$AAl?$AAa?$AAn?$AA?$AA@ 10001cb8     N5C_Init.obj
+ 0001:00000cd0       ??_C@_1BI@NPKFOBAM@?$AAW?$AAi?$AAF?$AAi?$AA1?$AA1?$AAb?$AAI?$AAb?$AAs?$AAs?$AA?$AA@ 10001cd0     N5C_Init.obj
+ 0001:00000ce8       ??_C@_1BE@MPHCBPAB@?$AAR?$AAX?$AAA?$AAn?$AAt?$AAe?$AAn?$AAn?$AAa?$AA?$AA@ 10001ce8     N5C_Init.obj
+ 0001:00000cfc       ??_C@_1BE@ELFBICNE@?$AAT?$AAX?$AAA?$AAn?$AAt?$AAe?$AAn?$AAn?$AAa?$AA?$AA@ 10001cfc     N5C_Init.obj
+ 0001:00000d10       ??_C@_1BK@EDHFPKK@?$AAC?$AAo?$AAr?$AAn?$AAe?$AAr?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AA?$AA@ 10001d10     N5C_Init.obj
+ 0001:00000d2c       ??_C@_1BG@JNHAJFKJ@?$AAC?$AAh?$AAa?$AAr?$AAg?$AAe?$AAP?$AAu?$AAm?$AAp?$AA?$AA@ 10001d2c     N5C_Init.obj
+ 0001:00000d44       ??_C@_1M@PMGMIGNB@?$AAB?$AAs?$AAs?$AAi?$AAd?$AA?$AA@ 10001d44     N5C_Init.obj
+ 0001:00000d50       ??_C@_19KJNOMKCJ@?$AAS?$AAS?$AAI?$AAD?$AA?$AA@ 10001d50     N5C_Init.obj
+ 0001:00000d5c       ??_C@_1BO@HGPPFMIN@?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AAA?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?$AA@ 10001d5c     N5C_Init.obj
+ 0001:00000d7c       ??_C@_11LOCGONAA@?$AA?$AA@ 10001d7c     N5C_Init.obj
+ 0001:00000d80       ??_C@_17PMLNMJNB@?$AAA?$AAN?$AAY?$AA?$AA@ 10001d80     N5C_Init.obj
+ 0001:00000ddc       _NdisTimerCallback         10001ddc f   UsbPlatformWindows.obj
+ 0001:00000e13       _PlatformUSBWriteReg       10001e13 f   UsbPlatformWindows.obj
+ 0001:00000e78       _PlatformAllocateMemory    10001e78 f   UsbPlatformWindows.obj
+ 0001:00000ea9       _PlatformFreeMemory        10001ea9 f   UsbPlatformWindows.obj
+ 0001:00000ed3       _PlatformAllocateSharedMemory 10001ed3 f   UsbPlatformWindows.obj
+ 0001:00000f0b       _PlatformFreeSharedMemory  10001f0b f   UsbPlatformWindows.obj
+ 0001:00000f26       _PlatformZeroMemory        10001f26 f   UsbPlatformWindows.obj
+ 0001:00000f41       _PlatformMoveMemory        10001f41 f   UsbPlatformWindows.obj
+ 0001:00000f60       _PlatformCompareMemory     10001f60 f   UsbPlatformWindows.obj
+ 0001:00000f7c       _PlatformFillMemory        10001f7c f   UsbPlatformWindows.obj
+ 0001:00000fa8       _PlatformStallExecution    10001fa8 f   UsbPlatformWindows.obj
+ 0001:00000fad       _PlatformInitializeTimer   10001fad f   UsbPlatformWindows.obj
+ 0001:00000fe1       _PlatformCancelTimer       10001fe1 f   UsbPlatformWindows.obj
+ 0001:00001002       _PlatformGetCurrentTime    10002002 f   UsbPlatformWindows.obj
+ 0001:00001023       _PlatformInitializeSpinLock 10002023 f   UsbPlatformWindows.obj
+ 0001:00001060       _PlatformFreeSpinLock      10002060 f   UsbPlatformWindows.obj
+ 0001:00001085       _PlatformAcquireSpinLock   10002085 f   UsbPlatformWindows.obj
+ 0001:000010c2       _PlatformReleaseSpinLock   100020c2 f   UsbPlatformWindows.obj
+ 0001:000010f5       _PlatformIndicateMediaStatus 100020f5 f   UsbPlatformWindows.obj
+ 0001:00001124       _UsbIOComplete             10002124 f   UsbPlatformWindows.obj
+ 0001:00001197       _UsbAsynIOWriteComplete    10002197 f   UsbPlatformWindows.obj
+ 0001:00001216       _RTusbCancelAsynIoPendingIrp 10002216 f   UsbPlatformWindows.obj
+ 0001:00001248       _PlatformHandleTKIPMICError 10002248 f   UsbPlatformWindows.obj
+ 0001:0000130f       _PlatformRequestPreAuthentication 1000230f f   UsbPlatformWindows.obj
+ 0001:00001390       _ReturnAWB                 10002390 f   UsbPlatformWindows.obj
+ 0001:000013ae       _InitRtWorkItem            100023ae f   UsbPlatformWindows.obj
+ 0001:00001407       _DeInitRtWorkItem          10002407 f   UsbPlatformWindows.obj
+ 0001:00001459       _ScheduleRtWorkItem        10002459 f   UsbPlatformWindows.obj
+ 0001:000014af       _LeaveCallbackOfRtWorkItem 100024af f   UsbPlatformWindows.obj
+ 0001:000014e3       _PlatformIOWrite1Byte      100024e3 f   UsbPlatformWindows.obj
+ 0001:00001505       _PlatformIOWrite2Byte      10002505 f   UsbPlatformWindows.obj
+ 0001:00001527       _PlatformIOWrite4Byte      10002527 f   UsbPlatformWindows.obj
+ 0001:00001549       _PlatformUSBReadReg        10002549 f   UsbPlatformWindows.obj
+ 0001:0000165d       _PlatformSetTimer          1000265d f   UsbPlatformWindows.obj
+ 0001:0000168a       _IssueIrpForAsynIOWrite    1000268a f   UsbPlatformWindows.obj
+ 0001:0000170f       _UsbAsynIOWrite            1000270f f   UsbPlatformWindows.obj
+ 0001:000017ce       _PrepareAWBs               100027ce f   UsbPlatformWindows.obj
+ 0001:00001839       _FreeAWBs                  10002839 f   UsbPlatformWindows.obj
+ 0001:0000187f       _AsynIOWrite1Byte          1000287f f   UsbPlatformWindows.obj
+ 0001:000018a1       _AsynIOWrite2Byte          100028a1 f   UsbPlatformWindows.obj
+ 0001:000018c3       _AsynIOWrite4Byte          100028c3 f   UsbPlatformWindows.obj
+ 0001:000018e5       _PlatformIORead1Byte       100028e5 f   UsbPlatformWindows.obj
+ 0001:00001914       _PlatformIORead2Byte       10002914 f   UsbPlatformWindows.obj
+ 0001:00001946       _PlatformIORead4Byte       10002946 f   UsbPlatformWindows.obj
+ 0001:00001976       _CloseConnection           10002976 f   usbdrv.obj
+ 0001:000019ce       _ParseConfig               100029ce f   usbdrv.obj
+ 0001:00001b77       _Initialize                10002b77 f   usbdrv.obj
+ 0001:00001c84       _DeviceAttach              10002c84 f   usbdrv.obj
+ 0001:00001cc0       _USBInstallDriver          10002cc0 f   usbdrv.obj
+ 0001:00001d51       _USBUnInstallDriver        10002d51 f   usbdrv.obj
+ 0001:00001db7       _DeThreadProc              10002db7 f   usbdrv.obj
+ 0001:00001dd1       _USBDeviceNotifications    10002dd1 f   usbdrv.obj
+ 0001:00001e23       _ThreadProc                10002e23 f   usbdrv.obj
+ 0001:00001e43       _USBDeviceAttach           10002e43 f   usbdrv.obj
+ 0001:00001ec4       _RTusbAllocateAdapter      10002ec4 f   usb_main.obj
+ 0001:00001f3d       _RTusbFreeAdapter          10002f3d f   usb_main.obj
+ 0001:00001f62       _AsynIoWriteWorkItemCallback 10002f62 f   usb_main.obj
+ 0001:00002067       _GPIOChangeRFWorkItemCallback 10003067 f   usb_main.obj
+ 0001:0000210d       _RTusbCheckForHang         1000310d f   usb_main.obj
+ 0001:00002368       _RTusbReset                10003368 f   usb_main.obj
+ 0001:0000236b       _PrepareAllRxDescBuffer    1000336b f   Receive.obj
+ 0001:0000236b       _RTusbCancelSendPackets    1000336b f   usb_main.obj
+ 0001:0000236b       _HaltAdapter8187           1000336b f   Hal8187Gen.obj
+ 0001:0000236b       _PRINT_DATA                1000336b f   SecurityGen.obj
+ 0001:0000236b       _SetTxAntenna8187          1000336b f   Hal8187Gen.obj
+ 0001:0000236b       _QueryTxDescStatus8187     1000336b f   Hal8187TxDesc.obj
+ 0001:0000236b       _AP_IndicateLinkState      1000336b f   ApEngine.obj
+ 0001:0000236b       _SetRxAntenna8187          1000336b f   Hal8187Gen.obj
+ 0001:0000236b       _GetAntennaNumber8187      1000336b f   Hal8187Gen.obj
+ 0001:0000236b       _GetTxPowerLevel8187       1000336b f   Hal8187PhyCfg.obj
+ 0001:0000236c       _RTusbPnPEventNotify       1000336c f   usb_main.obj
+ 0001:000023e5       _RTusbShutdown             100033e5 f   usb_main.obj
+ 0001:0000259e       _RTusbGetPacketBuffers     1000359e f   usb_main.obj
+ 0001:00002644       _RTusbSend                 10003644 f   usb_main.obj
+ 0001:000027ca       _RTusbReturnPacket         100037ca f   usb_main.obj
+ 0001:0000282d       _RTusbReadRegParameters    1000382d f   usb_main.obj
+ 0001:0000296b       _RTusbCallUSBDWriteReg     1000396b f   usb_main.obj
+ 0001:00002a7c       _UsbGetLowFreeContext      10003a7c f   usb_main.obj
+ 0001:00002ada       _UsbGetHighFreeContext     10003ada f   usb_main.obj
+ 0001:00002b43       _RTusbReturnFreeContext    10003b43 f   usb_main.obj
+ 0001:00002b60       _RTusbReturnHighFreeContext 10003b60 f   usb_main.obj
+ 0001:00002b7d       _RTusbFreeDevice           10003b7d f   usb_main.obj
+ 0001:00002bf2       _RTusbInitAndStartNIC      10003bf2 f   usb_main.obj
+ 0001:00002dd2       _RTusbCancelRecvPendingIrp 10003dd2 f   usb_main.obj
+ 0001:00002e7b       _MpReceiveFilter           10003e7b f   usb_main.obj
+ 0001:00002ebe       _RTusbFreeAll              10003ebe f   usb_main.obj
+ 0001:00002eda       _IbssStartRequestWorkItemCallback 10003eda f   usb_main.obj
+ 0001:00002efe       _FlashLedWorkItemCallback  10003efe f   usb_main.obj
+ 0001:00002f22       _UpdateBeaconWorkItemCallback 10003f22 f   usb_main.obj
+ 0001:00002f46       _StartApRequestWorkItemCallback 10003f46 f   usb_main.obj
+ 0001:00002f6a       _SetRFPowerStateWorkItemCallback 10003f6a f   usb_main.obj
+ 0001:00002f8d       _FindBssSig                10003f8d f   usb_main.obj
+ 0001:0000302c       _UpdateBssSig              1000402c f   usb_main.obj
+ 0001:00003051       _AddBssSig                 10004051 f   usb_main.obj
+ 0001:000030a2       _SendLowWorkItemCallback   100040a2 f   usb_main.obj
+ 0001:0000324d       _SendHighWorkItemCallback  1000424d f   usb_main.obj
+ 0001:000033ff       _RTusbHalt                 100043ff f   usb_main.obj
+ 0001:00003738       _RTusbInitBuffer           10004738 f   usb_main.obj
+ 0001:00003858       _QueryEndPointIN           10004858 f   usb_main.obj
+ 0001:000038eb       _RTusbStartDevice          100048eb f   usb_main.obj
+ 0001:000038ff       _RTusbIssueAnIRPRecv       100048ff f   usb_main.obj
+ 0001:00003953       _RTusbIssueRxIrpDpc        10004953 f   usb_main.obj
+ 0001:00003981       _DrvResetCallback8187WorkItem 10004981 f   usb_main.obj
+ 0001:00003aba       _RecvWorkItemCallback      10004aba f   usb_main.obj
+ 0001:00003da9       _RTusbInitialize           10004da9 f   usb_main.obj
+ 0001:000042bb       _DriverEntry               100052bb f   usb_main.obj
+ 0001:00004375       _RateAdaptive8225Dpc       10005375 f   usb_mechanism.obj
+ 0001:000043a7       _CheckHighPower            100053a7 f   usb_mechanism.obj
+ 0001:00004480       _HiPwrCallbackWorkItem     10005480 f   usb_mechanism.obj
+ 0001:000044ca       _UpdateInitialGain8225     100054ca f   usb_mechanism.obj
+ 0001:000047cf       _DIG_Zebra                 100057cf f   usb_mechanism.obj
+ 0001:00004887       _DynamicInitGain           10005887 f   usb_mechanism.obj
+ 0001:000048a6       _DIGCallbackWorkItem       100058a6 f   usb_mechanism.obj
+ 0001:000048dd       _RateAdaptive8187          100058dd f   usb_mechanism.obj
+ 0001:00004d75       _RateAdaptiveWorkItemCallback 10005d75 f   usb_mechanism.obj
+ 0001:00004de6       _RTusbQueryInformation     10005de6 f   Mp_Req.obj
+ 0001:00004f19       _RTusbSetInformation       10005f19 f   Mp_Req.obj
+ 0001:0000514e       _DrvIFAssociateRFD         1000614e f   usb_DrvIF.obj
+ 0001:0000519a       _DrvIFDisassociateRFD      1000619a f   usb_DrvIF.obj
+ 0001:000051c6       _DrvIFIndicatePacket       100061c6 f   usb_DrvIF.obj
+ 0001:000052e3       _DrvIFCompletePacket       100062e3 f   usb_DrvIF.obj
+ 0001:0000532a       _DbgWorkItemCallback       1000632a f   usb_dbg.obj
+ 0001:00005375       _DbgIoCallback             10006375 f   usb_dbg.obj
+ 0001:000055b7       _RtUsbDbgInit              100065b7 f   usb_dbg.obj
+ 0001:000055ff       _RtUsbDbgHalt              100065ff f   usb_dbg.obj
+ 0001:00005646       _DbgReadMacReg             10006646 f   usb_dbg.obj
+ 0001:000056d2       _DbgWriteMacReg            100066d2 f   usb_dbg.obj
+ 0001:0000575f       _DbgReadBbReg              1000675f f   usb_dbg.obj
+ 0001:000057d9       _DbgWriteBbReg             100067d9 f   usb_dbg.obj
+ 0001:00005855       _DbgReadRfReg              10006855 f   usb_dbg.obj
+ 0001:000058bf       _DbgWriteRfReg             100068bf f   usb_dbg.obj
+ 0001:0000592c       _eqNByte                   1000692c f   GeneralFunc.obj
+ 0001:00005959       _RaiseClock                10006959 f   EEPROM.obj
+ 0001:0000598d       _LowerClock                1000698d f   EEPROM.obj
+ 0001:000059c4       _EEpromCleanup             100069c4 f   EEPROM.obj
+ 0001:00005a1b       _StandBy                   10006a1b f   EEPROM.obj
+ 0001:00005a80       _ShiftOutBits              10006a80 f   EEPROM.obj
+ 0001:00005b3c       _ShiftInBits               10006b3c f   EEPROM.obj
+ 0001:00005bd3       _WaitEEPROMCmdDone         10006bd3 f   EEPROM.obj
+ 0001:00005c1b       _ReadEEprom                10006c1b f   EEPROM.obj
+ 0001:00005c90       _WriteEEprom               10006c90 f   EEPROM.obj
+ 0001:00005d4f       _NicIFAssociateNIC         10006d4f f   DriverInterface.obj
+ 0001:00005d84       _NicIFDisassociateNIC      10006d84 f   DriverInterface.obj
+ 0001:00005d93       _NicIFReadAdapterInfo      10006d93 f   DriverInterface.obj
+ 0001:00005db0       _NicIFAllocateMemory       10006db0 f   DriverInterface.obj
+ 0001:00005dd4       _NicIFFreeMemory           10006dd4 f   DriverInterface.obj
+ 0001:00005e2e       _NicIFInitializeAdapter    10006e2e f   DriverInterface.obj
+ 0001:00005e5f       _NicIFHandleUsbRxPacket    10006e5f f   DriverInterface.obj
+ 0001:00005e64       _NicIFReturnPacket         10006e64 f   DriverInterface.obj
+ 0001:00005e7e       _NicIFCancelAllTimer       10006e7e f   DriverInterface.obj
+ 0001:00005e94       _PrepareTCBs               10006e94 f   Transmit.obj
+ 0001:00006068       _RemoveZeroLengthBuffer    10007068 f   Transmit.obj
+ 0001:000060b3       _TranslateHeader           100070b3 f   Transmit.obj
+ 0001:00006408       _CheckFragment             10007408 f   Transmit.obj
+ 0001:00006436       _FragmentTCB               10007436 f   Transmit.obj
+ 0001:000066f1       _TransmitTCB               100076f1 f   Transmit.obj
+ 0001:00006b29       _ResetTxStatistics         10007b29 f   Transmit.obj
+ 0001:00006b3d       _CountTxStatistics         10007b3d f   Transmit.obj
+ 0001:00006bd4       _GetLocalBuffer            10007bd4 f   Transmit.obj
+ 0001:00006bf1       _ReturnLocalBuffer         10007bf1 f   Transmit.obj
+ 0001:00006c0f       _InitializeTxVariables     10007c0f f   Transmit.obj
+ 0001:00006c95       _TxDoCoalesce              10007c95 f   Transmit.obj
+ 0001:00006e1c       _ReturnTCB                 10007e1c f   Transmit.obj
+ 0001:00006ec3       _FreeTCBs                  10007ec3 f   Transmit.obj
+ 0001:00006fb8       _PreTransmitTCB            10007fb8 f   Transmit.obj
+ 0001:000071ef       _PrepareRFDs               100081ef f   Receive.obj
+ 0001:00007283       _FreeRFDs                  10008283 f   Receive.obj
+ 0001:00007307       _ResetRxStatistics         10008307 f   Receive.obj
+ 0001:0000731e       _CountRxStatistics         1000831e f   Receive.obj
+ 0001:000073d6       _CountRxErrStatistics      100083d6 f   Receive.obj
+ 0001:000075b3       _TranslateRxPacketHeader   100085b3 f   Receive.obj
+ 0001:00007784       _ReturnRFDList             10008784 f   Receive.obj
+ 0001:000077b0       _MakeRFDListOffsetAtBack   100087b0 f   Receive.obj
+ 0001:00007821       _InitializeRxVariables     10008821 f   Receive.obj
+ 0001:00007859       _DefragPacket              10008859 f   Receive.obj
+ 0001:00007989       _ProcessReceivedPacket     10008989 f   Receive.obj
+ 0001:00007a67       _MgntSetRegdot11OperationalRateSet 10008a67 f   MgntGen.obj
+ 0001:00007bbe       _MgntInitializeAllTimer    10008bbe f   MgntGen.obj
+ 0001:00007c49       _MgntCancelAllTimer        10008c49 f   MgntGen.obj
+ 0001:00007cb5       _InitializeMgntVariables   10008cb5 f   MgntGen.obj
+ 0001:00007e66       _MgntGetBuffer             10008e66 f   MgntGen.obj
+ 0001:00007eb3       _MgntSendPacket            10008eb3 f   MgntGen.obj
+ 0001:00007f14       _MgntCheckForwarding       10008f14 f   MgntGen.obj
+ 0001:00007fd1       _MgntFilterTransmitPacket  10008fd1 f   MgntGen.obj
+ 0001:00008057       _MgntAllocateBeaconBuf     10009057 f   MgntGen.obj
+ 0001:0000808b       _MgntFreeBeaconBuf         1000908b f   MgntGen.obj
+ 0001:0000809f       _MgntIsMacAddrGroup        1000909f f   MgntGen.obj
+ 0001:000080cf       _MgntSsInquiry             100090cf f   MgntGen.obj
+ 0001:00008171       _MgntGetEncryptionInfo     10009171 f   MgntGen.obj
+ 0001:00008211       _MgntQuery_MgntFrameTxRate 10009211 f   MgntGen.obj
+ 0001:00008230       _MgntQuery_DataFrameTxRate 10009230 f   MgntGen.obj
+ 0001:0000829e       _MgntQuery_FrameTxRate     1000929e f   MgntGen.obj
+ 0001:000082fc       _MgntQuery_SequenceNumber  100092fc f   MgntGen.obj
+ 0001:0000831b       _MgntIsShortPreambleMode   1000931b f   MgntGen.obj
+ 0001:00008335       _MgntIsMulticastFrame      10009335 f   MgntGen.obj
+ 0001:00008376       _MgntIsBroadcastFrame      10009376 f   MgntGen.obj
+ 0001:000083b0       _MgntIsRateValidForWirelessMode 100093b0 f   MgntGen.obj
+ 0001:00008405       _MgntIsCckRate             10009405 f   MgntGen.obj
+ 0001:00008421       _Doze                      10009421 f   MgntGen.obj
+ 0001:0000844b       _Awake                     1000944b f   MgntGen.obj
+ 0001:0000845d       _MgntFilterReceivedPacket  1000945d f   MgntGen.obj
+ 0001:00008a9e       _ReplayCounter_LI2OC       10009a9e f i MgntConstructPacket.obj
+ 0001:00008ad5       _SelectSupportedRatesElement 10009ad5 f   MgntConstructPacket.obj
+ 0001:00008b98       _ConstructBeaconFrame      10009b98 f   MgntConstructPacket.obj
+ 0001:00008dd5       _UpdateBeaconFrame         10009dd5 f   MgntConstructPacket.obj
+ 0001:00008ded       _ConstructProbeRequest     10009ded f   MgntConstructPacket.obj
+ 0001:00008f0f       _ConstructAuthenticatePacket 10009f0f f   MgntConstructPacket.obj
+ 0001:00008fe7       _ConstructAssociateReq     10009fe7 f   MgntConstructPacket.obj
+ 0001:00009109       _ConstructReAssociateReq   1000a109 f   MgntConstructPacket.obj
+ 0001:00009236       _ConstructAssociateRsp     1000a236 f   MgntConstructPacket.obj
+ 0001:00009334       _ConstructDisassociatePacket 1000a334 f   MgntConstructPacket.obj
+ 0001:0000939b       _ConstructProbeRsp         1000a39b f   MgntConstructPacket.obj
+ 0001:0000959c       _ConstructNullFunctionData 1000a59c f   MgntConstructPacket.obj
+ 0001:0000967d       _ConstructMagicPacket      1000a67d f   MgntConstructPacket.obj
+ 0001:0000975f       _ConstructEapolKeyPacket   1000a75f f   MgntConstructPacket.obj
+ 0001:00009b5e       _SendBeaconFrame           1000ab5e f   MgntSendPacket.obj
+ 0001:00009c50       _SendProbeReq              1000ac50 f   MgntSendPacket.obj
+ 0001:00009cb6       _SendAuthenticatePacket    1000acb6 f   MgntSendPacket.obj
+ 0001:00009d31       _SendAssociateReq          1000ad31 f   MgntSendPacket.obj
+ 0001:00009dbb       _SendReassociateReq        1000adbb f   MgntSendPacket.obj
+ 0001:00009e48       _SendAssociateRsp          1000ae48 f   MgntSendPacket.obj
+ 0001:00009ec0       _SendDisassociation        1000aec0 f   MgntSendPacket.obj
+ 0001:00009f2f       _SendProbeRsp              1000af2f f   MgntSendPacket.obj
+ 0001:00009fb2       _SendNullFunctionData      1000afb2 f   MgntSendPacket.obj
+ 0001:0000a01b       _SendMagicPacket           1000b01b f   MgntSendPacket.obj
+ 0001:0000a081       _SendEapolKeyPacket        1000b081 f   MgntSendPacket.obj
+ 0001:0000a1c4       _BssDescDupSource          1000b1c4 f   MgntLink.obj
+ 0001:0000a29f       _IsLegalChannel            1000b29f f   MgntLink.obj
+ 0001:0000a303       _IsPeer11G                 1000b303 f   MgntLink.obj
+ 0001:0000a35e       _GetValueFromBeaconOrProbeRsp 1000b35e f   MgntLink.obj
+ 0001:0000a6fa       _GetScanInfo               1000b6fa f   MgntLink.obj
+ 0001:0000a832       _SelectNetworkBySSID       1000b832 f   MgntLink.obj
+ 0001:0000aaae       _FilterSupportRate         1000baae f   MgntLink.obj
+ 0001:0000ab25       _SelectRateSet             1000bb25 f   MgntLink.obj
+ 0001:0000acd2       _ActUpdate_mCapInfo        1000bcd2 f   MgntLink.obj
+ 0001:0000ad24       _ActUpdate_ERPInfo         1000bd24 f   MgntLink.obj
+ 0001:0000ad4f       _SetupJoinInfraInfo        1000bd4f f   MgntLink.obj
+ 0001:0000ae98       _SetupJoinIBSSInfo         1000be98 f   MgntLink.obj
+ 0001:0000b03a       _SetupStartIBSSInfo        1000c03a f   MgntLink.obj
+ 0001:0000b1d9       _IbssStartRequest          1000c1d9 f   MgntLink.obj
+ 0001:0000b1fa       _MgntDisconnectAP          1000c1fa f   MgntLink.obj
+ 0001:0000b21c       _MlmeAssociateRequest      1000c21c f   MgntLink.obj
+ 0001:0000b27c       _MlmeAuthenticateRequest   1000c27c f   MgntLink.obj
+ 0001:0000b2bf       _JoinRequest               1000c2bf f   MgntLink.obj
+ 0001:0000b33a       _JoinConfirm               1000c33a f   MgntLink.obj
+ 0001:0000b3d2       _ScanByTimer               1000c3d2 f   MgntLink.obj
+ 0001:0000b539       _ScanComplete              1000c539 f   MgntLink.obj
+ 0001:0000b713       _ScanCallback              1000c713 f   MgntLink.obj
+ 0001:0000b9ab       _MgntResetScanProcess      1000c9ab f   MgntLink.obj
+ 0001:0000b9fd       _MgntResetLinkProcess      1000c9fd f   MgntLink.obj
+ 0001:0000ba6d       _MgntLinkRequest           1000ca6d f   MgntLink.obj
+ 0001:0000bc76       _MgntLinkStatusQuery       1000cc76 f   MgntLink.obj
+ 0001:0000bc9a       _SwBeaconCallback          1000cc9a f   MgntLink.obj
+ 0001:0000bd31       _StaInfoTimerCallback      1000cd31 f   MgntLink.obj
+ 0001:0000be02       _MgntIndicateMediaStatus   1000ce02 f   MgntLink.obj
+ 0001:0000be98       _MlmeAssociateConfirm      1000ce98 f   MgntLink.obj
+ 0001:0000c137       _MlmeAuthenticateRequest_Confirm 1000d137 f   MgntLink.obj
+ 0001:0000c2dd       _MgntLinkRetry             1000d2dd f   MgntLink.obj
+ 0001:0000c33f       _MgntLinkStatusWatchdog    1000d33f f   MgntLink.obj
+ 0001:0000c583       _IbssStartRequestCallback  1000d583 f   MgntLink.obj
+ 0001:0000c69b       _MgntDisconnectIBSS        1000d69b f   MgntLink.obj
+ 0001:0000c728       _AsocTimeout               1000d728 f   MgntLink.obj
+ 0001:0000c760       _AuthTimeout               1000d760 f   MgntLink.obj
+ 0001:0000c786       _JoinTimeout               1000d786 f   MgntLink.obj
+ 0001:0000c865       _DefragInit                1000d865 f   Defrag.obj
+ 0001:0000c880       _DefragSearch              1000d880 f   Defrag.obj
+ 0001:0000c8ff       _DefragFindFreeEntry       1000d8ff f   Defrag.obj
+ 0001:0000c92c       _DefragEntrySetRFD         1000d92c f   Defrag.obj
+ 0001:0000c989       _DefragEntryAddRFD         1000d989 f   Defrag.obj
+ 0001:0000c9b6       _DefragEntryFree           1000d9b6 f   Defrag.obj
+ 0001:0000c9ce       _DefragInitialize          1000d9ce f   Defrag.obj
+ 0001:0000c9e2       _DefragReset               1000d9e2 f   Defrag.obj
+ 0001:0000ca0a       _DefragAge                 1000da0a f   Defrag.obj
+ 0001:0000ca49       _DefragAddRFD              1000da49 f   Defrag.obj
+ 0001:0000cb73       _SecGetRxKeyIdx            1000db73 f   SecurityGen.obj
+ 0001:0000cbbb       _SecCheckTKIPMIC           1000dbbb f   SecurityGen.obj
+ 0001:0000ce20       _SecHeaderFillIV           1000de20 f   SecurityGen.obj
+ 0001:0000d01d       _SecInit                   1000e01d f   SecurityGen.obj
+ 0001:0000d155       _SecClearAllKeys           1000e155 f   SecurityGen.obj
+ 0001:0000d19e       _SecClearGroupKeyByIdx     1000e19e f   SecurityGen.obj
+ 0001:0000d1e2       _SecClearPairwiseKeyByMacAddr 1000e1e2 f   SecurityGen.obj
+ 0001:0000d219       _SecMapAuthModeToRSNIEAuthType 1000e219 f   SecurityGen.obj
+ 0001:0000d23c       _SecGetEncryptionOverhead  1000e23c f   SecurityGen.obj
+ 0001:0000d2ff       _SecGetGroupCipherFromBeacon 1000e2ff f   SecurityGen.obj
+ 0001:0000d322       _SecConstructRSNIE         1000e322 f   SecurityGen.obj
+ 0001:0000d463       _SecGetTxKeyIdx            1000e463 f   SecurityGen.obj
+ 0001:0000d496       _SecCalculateTKIPMIC       1000e496 f   SecurityGen.obj
+ 0001:0000d60c       _SecCalculateMIC           1000e60c f   SecurityGen.obj
+ 0001:0000d627       _SecSWTKIPEncryption       1000e627 f   SecurityGen.obj
+ 0001:0000d8f6       _SecSWWEPEncryption        1000e8f6 f   SecurityGen.obj
+ 0001:0000db50       _SecSWAESEncryption        1000eb50 f   SecurityGen.obj
+ 0001:0000dd68       _SecSWAESDecryption        1000ed68 f   SecurityGen.obj
+ 0001:0000ddba       _SecSWTKIPDecryption       1000edba f   SecurityGen.obj
+ 0001:0000df5f       _SecSWWEPDecryption        1000ef5f f   SecurityGen.obj
+ 0001:0000dffa       _SecInsertDenyBssidList    1000effa f   SecurityGen.obj
+ 0001:0000e083       _SecIsInDenyBssidList      1000f083 f   SecurityGen.obj
+ 0001:0000e0f4       _SecFillHeader             1000f0f4 f   SecurityGen.obj
+ 0001:0000e16d       _SecCheckMIC               1000f16d f   SecurityGen.obj
+ 0001:0000e1ce       _SecSoftwareEncryption     1000f1ce f   SecurityGen.obj
+ 0001:0000e20a       _SecSoftwareDecryption     1000f20a f   SecurityGen.obj
+ 0001:0000e26d       _EqualOS                   1000f26d f   Protocol802_11.obj
+ 0001:0000e29a       _IsSSIDAny                 1000f29a f   Protocol802_11.obj
+ 0001:0000e2d8       _IsSSIDDummy               1000f2d8 f   Protocol802_11.obj
+ 0001:0000e30c       _PacketGetElement          1000f30c f   Protocol802_11.obj
+ 0001:0000e3d9       _PacketMakeElement         1000f3d9 f   Protocol802_11.obj
+ 0001:0000e415       _N_DBPSOfRate              1000f415 f   Protocol802_11.obj
+ 0001:0000e467       _ComputeTxTime             1000f467 f   Protocol802_11.obj
+ 0001:0000e51d       _ComputePLCPLength         1000f51d f   Protocol802_11.obj
+ 0001:0000e5ac       _IsHiddenSsid              1000f5ac f   Protocol802_11.obj
+ 0001:0000e5d7       _BeHiddenSsid              1000f5d7 f   Protocol802_11.obj
+ 0001:0000e5ff       _NullSSID                  1000f5ff f   Protocol802_11.obj
+ 0001:0000e653       _CompareSSID               1000f653 f   Protocol802_11.obj
+ 0001:0000e67d       _OnBeacon_Join             1000f67d f   MgntEngine.obj
+ 0001:0000e733       _IsOurFrameBuffred         1000f733 f   MgntEngine.obj
+ 0001:0000e790       _OnBeacon_Bss              1000f790 f   MgntEngine.obj
+ 0001:0000e8af       _OnBeacon_Ibss             1000f8af f   MgntEngine.obj
+ 0001:0000ea59       _OnBeacon                  1000fa59 f   MgntEngine.obj
+ 0001:0000eaa7       _OnAuth_even               1000faa7 f   MgntEngine.obj
+ 0001:0000ec8e       _OnAssocRsp                1000fc8e f   MgntEngine.obj
+ 0001:0000ed5b       _OnReAssocRsp              1000fd5b f   MgntEngine.obj
+ 0001:0000edb2       _OnDisassoc                1000fdb2 f   MgntEngine.obj
+ 0001:0000ee95       _OnDeauth                  1000fe95 f   MgntEngine.obj
+ 0001:0000efab       _OnProbeReq                1000ffab f   MgntEngine.obj
+ 0001:0000f03d       _MlmeDisassociateRequest   1001003d f   MgntEngine.obj
+ 0001:0000f0bd       _Mgnt_Indicate             100100bd f   MgntEngine.obj
+ 0001:0000f1f2       _MgntActSet_802_11_BSSID   100101f2 f   MgntActSetParam.obj
+ 0001:0000f21d       _MgntActSet_802_11_SSID    1001021d f   MgntActSetParam.obj
+ 0001:0000f4ad       _MgntActSet_802_11_TX_POWER_LEVEL 100104ad f   MgntActSetParam.obj
+ 0001:0000f4c1       _MgntActSet_802_11_INFRASTRUCTURE_MODE 100104c1 f   MgntActSetParam.obj
+ 0001:0000f53f       _MgntActSet_802_11_FRAGMENTATION_THRESHOLD 1001053f f   MgntActSetParam.obj
+ 0001:0000f552       _MgntActSet_802_11_RTS_THRESHOLD 10010552 f   MgntActSetParam.obj
+ 0001:0000f565       _MgntActSet_802_11_CONFIGURATION 10010565 f   MgntActSetParam.obj
+ 0001:0000f5c3       _MgntActSet_802_11_ADD_WEP 100105c3 f   MgntActSetParam.obj
+ 0001:0000f644       _MgntActSet_802_11_REMOVE_WEP 10010644 f   MgntActSetParam.obj
+ 0001:0000f69a       _MgntActSet_802_11_DISASSOCIATE 1001069a f   MgntActSetParam.obj
+ 0001:0000f714       _MgntActSet_802_11_AUTHENTICATION_MODE 10010714 f   MgntActSetParam.obj
+ 0001:0000f75a       _MgntActSet_802_11_BSSID_LIST_SCAN 1001075a f   MgntActSetParam.obj
+ 0001:0000f7bb       _MgntActSet_802_11_ADD_KEY 100107bb f   MgntActSetParam.obj
+ 0001:0000fa23       _MgntActSet_802_11_REMOVE_KEY 10010a23 f   MgntActSetParam.obj
+ 0001:0000fa52       _MgntActSet_802_11_CHANNEL 10010a52 f   MgntActSetParam.obj
+ 0001:0000fac9       _MgntActSet_802_11_CHANNELPLAN 10010ac9 f   MgntActSetParam.obj
+ 0001:0000fadd       _MgntActSet_802_11_PMKID   10010add f   MgntActSetParam.obj
+ 0001:0000fae0       _ComputeCrc                10010ae0 f   MgntActSetParam.obj
+ 0001:0000fb24       _GetMulticastBit           10010b24 f   MgntActSetParam.obj
+ 0001:0000fb4f       _MgntActSet_802_3_MULTICAST_LIST 10010b4f f   MgntActSetParam.obj
+ 0001:0000fc31       _MgntActSet_802_11_PREAMBLE_MODE 10010c31 f   MgntActSetParam.obj
+ 0001:0000fc46       _MgntActSet_802_11_PowerSaveMode 10010c46 f   MgntActSetParam.obj
+ 0001:0000fc79       _MgntActSet_ApMode         10010c79 f   MgntActSetParam.obj
+ 0001:0000fccd       _MgntActSet_802_11_DtimPeriod 10010ccd f   MgntActSetParam.obj
+ 0001:0000fce2       _MgntActSet_802_11_BeaconInterval 10010ce2 f   MgntActSetParam.obj
+ 0001:0000fd0e       _MgntActSet_802_11_ScanWithMagicPacket 10010d0e f   MgntActSetParam.obj
+ 0001:0000fd47       _MgntActSet_Passphrase     10010d47 f   MgntActSetParam.obj
+ 0001:0000fd97       _MgntActSet_TxPacketCW     10010d97 f   MgntActSetParam.obj
+ 0001:0000fde3       _MgntActSet_EnterTurboModeByStyle 10010de3 f   MgntActSetParam.obj
+ 0001:0000fe5f       _MgntActSet_802_11_WIRELESS_MODE 10010e5f f   MgntActSetParam.obj
+ 0001:0000feab       _MgntActQuery_802_11_ASSOCIATION_INFORMATION 10010eab f   MgntActQueryParam.obj
+ 0001:00010049       _MgntActQuery_802_11_SSID  10011049 f   MgntActQueryParam.obj
+ 0001:00010094       _MgntActQuery_802_11_INFRASTRUCTURE_MODE 10011094 f   MgntActQueryParam.obj
+ 0001:000100ba       _MgntActQuery_802_11_FRAGMENTATION_THRESHOLD 100110ba f   MgntActQueryParam.obj
+ 0001:000100c6       _MgntActQuery_802_11_RTS_THRESHOLD 100110c6 f   MgntActQueryParam.obj
+ 0001:000100d2       _MgntActQuery_802_11_BSSID_LIST 100110d2 f   MgntActQueryParam.obj
+ 0001:00010314       _MgntActQuery_802_11_AUTHENTICATION_MODE 10011314 f   MgntActQueryParam.obj
+ 0001:00010327       _MgntActQuery_802_11_WIRELESS_MODE 10011327 f   MgntActQueryParam.obj
+ 0001:00010332       _MgntActQuery_TxPacketCW8185 10011332 f   MgntActQueryParam.obj
+ 0001:0001034f       _MgntActQuery_TxRetryLimit8185 1001134f f   MgntActQueryParam.obj
+ 0001:00010394       _MgntActQuery_TxAGC8185    10011394 f   MgntActQueryParam.obj
+ 0001:00010394       _MgntActQuery_TxAntenna8185 10011394 f   MgntActQueryParam.obj
+ 0001:0001039c       _MgntActQuery_TxAutoRateFallbackLimit8185 1001139c f   MgntActQueryParam.obj
+ 0001:000103ad       _SecMICGetUINT32           100113ad f   TKIP_MIC.obj
+ 0001:000103c8       _SecMICPutUINT32           100113c8 f   TKIP_MIC.obj
+ 0001:000103dd       _SecMICClear               100113dd f   TKIP_MIC.obj
+ 0001:000103f5       _SecMICSetKey              100113f5 f   TKIP_MIC.obj
+ 0001:0001041f       _SecMICAppendByte          1001141f f   TKIP_MIC.obj
+ 0001:000104b4       _SecMICAppend              100114b4 f   TKIP_MIC.obj
+ 0001:000104d9       _SecMICGetMIC              100114d9 f   TKIP_MIC.obj
+ 0001:0001053d       _Phase1                    1001153d f   TKIP.obj
+ 0001:000106aa       _Phase2                    100116aa f   TKIP.obj
+ 0001:00010906       _TKIPGenerateKey           10011906 f   TKIP.obj
+ 0001:00010935       _gen_tabs                  10011935 f   SECAES_CCM.obj
+ 0001:00010c37       _AES_SetKey                10011c37 f   SECAES_CCM.obj
+ 0001:00010f22       _AES_Encrypt               10011f22 f   SECAES_CCM.obj
+ 0001:00011b78       _MIC_AESCCMP               10012b78 f   SECAES_CCM.obj
+ 0001:00011d6b       _Encrypt_AESCCMP           10012d6b f   SECAES_CCM.obj
+ 0001:00011ee0       _Decrypt_AESCCMP           10012ee0 f   SECAES_CCM.obj
+ 0001:0001205b       _SecEncodeAESCCM           1001305b f   SECAES_CCM.obj
+ 0001:00012123       _SecDecodeAESCCM           10013123 f   SECAES_CCM.obj
+ 0001:000121d1       _arcfour_byte              100131d1 f   RC4.obj
+ 0001:0001221d       _arcfour_init              1001321d f   RC4.obj
+ 0001:00012283       _arcfour_encrypt           10013283 f   RC4.obj
+ 0001:000122af       _ReverseBit                100132af f   RC4.obj
+ 0001:000122fb       _crc32                     100132fb f   RC4.obj
+ 0001:00012329       _init_crc32                10013329 f   RC4.obj
+ 0001:0001239b       _EncodeWEP                 1001339b f   RC4.obj
+ 0001:000123f7       _DecodeWEP                 100133f7 f   RC4.obj
+ 0001:00012462       _AsocEntry_ComputeSum      10013462 f   ApEngine.obj
+ 0001:00012490       _AsocEntry_GetEntry        10013490 f   ApEngine.obj
+ 0001:00012559       _AsocEntry_GetFreeEntry    10013559 f   ApEngine.obj
+ 0001:000125c0       _AsocEntry_ResetEntry      100135c0 f   ApEngine.obj
+ 0001:0001262b       _AsocEntry_RemoveStation   1001362b f   ApEngine.obj
+ 0001:000126e3       _AsocEntry_UpdateTimeStamp 100136e3 f   ApEngine.obj
+ 0001:000126f9       _AsocEntry_IsStationAssociated 100136f9 f   ApEngine.obj
+ 0001:00012717       _AP_PS_ReturnAllQueuedPackets 10013717 f   ApEngine.obj
+ 0001:00012783       _AP_PS_UpdateStationPSState 10013783 f   ApEngine.obj
+ 0001:00012806       _AP_PS_SendPacket          10013806 f   ApEngine.obj
+ 0001:0001286f       _AP_PS_FillTim             1001386f f   ApEngine.obj
+ 0001:000129df       _AP_PS_OnPSPoll            100139df f   ApEngine.obj
+ 0001:00012a58       _AP_ForwardPacketWithFromDS 10013a58 f   ApEngine.obj
+ 0001:00012c7f       _AP_ResetVariables         10013c7f f   ApEngine.obj
+ 0001:00012d00       _AP_SetupStartApInfo       10013d00 f   ApEngine.obj
+ 0001:00012ee9       _AP_StartApRequest         10013ee9 f   ApEngine.obj
+ 0001:00012fee       _AP_Restart                10013fee f   ApEngine.obj
+ 0001:00013018       _AP_Reset                  10014018 f   ApEngine.obj
+ 0001:00013050       _AP_CheckRSNIE             10014050 f   ApEngine.obj
+ 0001:0001321d       _AP_OnEAPOL                1001421d f   ApEngine.obj
+ 0001:0001330c       _AsocEntry_AddStation      1001430c f   ApEngine.obj
+ 0001:00013374       _AsocEntry_BecomeDisassoc  10014374 f   ApEngine.obj
+ 0001:000133bf       _AP_OnAuthOdd              100143bf f   ApEngine.obj
+ 0001:00013605       _AP_OnAsocReq              10014605 f   ApEngine.obj
+ 0001:000137c1       _AP_DisassociateStation    100147c1 f   ApEngine.obj
+ 0001:00013808       _AP_DisassociateAllStation 10014808 f   ApEngine.obj
+ 0001:0001383e       _AsocEntry_AgeFunction     1001483e f   ApEngine.obj
+ 0001:000138c7       _EAPOLkeyGetRSNIE          100148c7 f   Authenticator.obj
+ 0001:0001391c       _Authenticator_StateDISCONNECT 1001491c f   Authenticator.obj
+ 0001:0001395f       _Authenticator_StateINITIALIZE 1001495f f   Authenticator.obj
+ 0001:00013a54       _Authenticator_StatePTKSTART 10014a54 f   Authenticator.obj
+ 0001:00013adb       _Authenticator_StatePTKINITNEGOTIATING 10014adb f   Authenticator.obj
+ 0001:00013b68       _Authenticator_StateINTEGRITYFAILURE 10014b68 f   Authenticator.obj
+ 0001:00013be5       _Authenticator_StateREKEYNEGOTIATING 10014be5 f   Authenticator.obj
+ 0001:00013c6e       _Authenticator_StateREKEYESTABLISHED 10014c6e f   Authenticator.obj
+ 0001:00013c91       _Authenticator_StateKEYERROR 10014c91 f   Authenticator.obj
+ 0001:00013cb8       _Authenticator_GlobalReset 10014cb8 f   Authenticator.obj
+ 0001:00013dfe       _Authenticator_OnTimeoutCountExceeded 10014dfe f   Authenticator.obj
+ 0001:00013e3d       _Authenticator_StateDISCONNECTED 10014e3d f   Authenticator.obj
+ 0001:00013e5f       _Authenticator_StateAUTHENTICATION2 10014e5f f   Authenticator.obj
+ 0001:00013e87       _Authenticator_StatePTKINITDONE 10014e87 f   Authenticator.obj
+ 0001:00013f04       _Authenticator_OnEAPOLKeyRecvd 10014f04 f   Authenticator.obj
+ 0001:000140c7       _KeyMgntTimeout            100150c7 f   Authenticator.obj
+ 0001:000141aa       _Authenticator_StateAUTHENTICATION 100151aa f   Authenticator.obj
+ 0001:000141fa       _Authenticator_OnAuthenticationRequest 100151fa f   Authenticator.obj
+ 0001:00014214       _RC4                       10015214 f   1x_rc4.obj
+ 0001:00014699       _RC4_set_key               10015699 f   1x_rc4.obj
+ 0001:00014796       _MD5_Init                  10015796 f   1x_md5c.obj
+ 0001:00015045       _MD5_Update                10016045 f   1x_md5c.obj
+ 0001:000150ed       _MD5_Final                 100160ed f   1x_md5c.obj
+ 0001:0001514e       _i_P_SHA1                  1001614e f   1x_kmsm_prf.obj
+ 0001:000151a1       _i_PRF                     100161a1 f   1x_kmsm_prf.obj
+ 0001:000151fe       _F                         100161fe f   1x_kmsm_prf.obj
+ 0001:000152ae       _PasswordHash              100162ae f   1x_kmsm_prf.obj
+ 0001:00016a1a       _SHAUpdate                 10017a1a f   1x_kmsm_hmac.obj
+ 0001:00016ada       _truncate                  10017ada f   1x_kmsm_hmac.obj
+ 0001:00016af8       _SHA1Reset                 10017af8 f   1x_kmsm_hmac.obj
+ 0001:00016b3b       _SHA1ProcessMessageBlock   10017b3b f   1x_kmsm_hmac.obj
+ 0001:00016d28       _SHA1PadMessage            10017d28 f   1x_kmsm_hmac.obj
+ 0001:00016df1       _hmac_md5                  10017df1 f   1x_kmsm_hmac.obj
+ 0001:00016eea       _SHAInit                   10017eea f   1x_kmsm_hmac.obj
+ 0001:00016f1c       _SHAFinal                  10017f1c f   1x_kmsm_hmac.obj
+ 0001:00016fd6       _hmac_sha                  10017fd6 f   1x_kmsm_hmac.obj
+ 0001:0001713f       _SHA1Result                1001813f f   1x_kmsm_hmac.obj
+ 0001:000171aa       _SHA1Input                 100181aa f   1x_kmsm_hmac.obj
+ 0001:00017228       _hmac_sha1                 10018228 f   1x_kmsm_hmac.obj
+ 0001:0001732e       _SY_MIN                    1001832e f   1x_kmsm_eapolkey.obj
+ 0001:0001736d       _CalcEapolMIC              1001836d f   1x_kmsm_eapolkey.obj
+ 0001:000173ce       _CalcPTK                   100183ce f   1x_kmsm_eapolkey.obj
+ 0001:00017495       _EncEapolKeyData           10018495 f   1x_kmsm_eapolkey.obj
+ 0001:0001752c       _HalAssociateNic           1001852c f   HalCommon.obj
+ 0001:0001770a       _HalDisassociateNic        1001870a f   HalCommon.obj
+ 0001:0001772b       _GetEEPROMSize8187         1001872b f   Hal8187Gen.obj
+ 0001:00017746       _ReadAdapterInfo8187       10018746 f   Hal8187Gen.obj
+ 0001:0001788e       _CancelAllTimer8187        1001888e f   Hal8187Gen.obj
+ 0001:000178be       _GetHardwareVersion8187    100188be f   Hal8187Gen.obj
+ 0001:0001791e       _InitializeExtraRegsOn8185 1001891e f   Hal8187Gen.obj
+ 0001:00017a4c       _IsSwChnlInProgress8187    10018a4c f   Hal8187Gen.obj
+ 0001:00017a5d       _HalSetBrateCfg            10018a5d f   Hal8187Gen.obj
+ 0001:00017b0a       _HalSetRrateCfg            10018b0a f   Hal8187Gen.obj
+ 0001:00017c78       _SetHwReg8185              10018c78 f   Hal8187Gen.obj
+ 0001:00017dc5       _GetHwReg8187              10018dc5 f   Hal8187Gen.obj
+ 0001:00017eb1       _ResetStateMachine8187     10018eb1 f   Hal8187Gen.obj
+ 0001:00017ec3       _GetChannelList8187        10018ec3 f   Hal8187Gen.obj
+ 0001:00017f48       _GetChannelPlanIndex8187   10018f48 f   Hal8187Gen.obj
+ 0001:00017f57       _SetChannelPlanIndex8187   10018f57 f   Hal8187Gen.obj
+ 0001:00017f75       _GetChannelNumber8187      10018f75 f   Hal8187Gen.obj
+ 0001:00017f83       _SetRegCWSetting8187       10018f83 f   Hal8187Gen.obj
+ 0001:00017fe8       _GetRegCWSetting8187       10018fe8 f   Hal8187Gen.obj
+ 0001:0001800b       _DisableContentionWindow8187 1001900b f   Hal8187Gen.obj
+ 0001:0001803c       _AllowAllDestAddr8187      1001903c f   Hal8187Gen.obj
+ 0001:00018072       _ActUpdateChannelAccessSetting 10019072 f   Hal8187Gen.obj
+ 0001:0001814b       _ActSetWirelessMode8187    1001914b f   Hal8187Gen.obj
+ 0001:000187a4       _GetSupportedWirelessMode8187 100197a4 f   Hal8187Gen.obj
+ 0001:000187c6       _GetInterfaceSelection8187 100197c6 f   Hal8187Gen.obj
+ 0001:000187d7       _DisableHWSecurityConfig8187 100197d7 f   Hal8187Gen.obj
+ 0001:000187f4       _EnableHWSecurityConfig8187 100197f4 f   Hal8187Gen.obj
+ 0001:00018836       _SetKey8187                10019836 f   Hal8187Gen.obj
+ 0001:00018986       _SetKey8187CallbackWorkItem 10019986 f   Hal8187Gen.obj
+ 0001:00018aed       _Ledon8187                 10019aed f   Hal8187Gen.obj
+ 0001:00018b2d       _Ledoff8187                10019b2d f   Hal8187Gen.obj
+ 0001:00018b6d       _DoLedFlashCallback        10019b6d f   Hal8187Gen.obj
+ 0001:00018bf3       _LedControlCallback8187    10019bf3 f   Hal8187Gen.obj
+ 0001:00018c16       _LedControl8187            10019c16 f   Hal8187Gen.obj
+ 0001:00018d99       _SetPSMode8187             10019d99 f   Hal8187Gen.obj
+ 0001:00018de3       _SetupRFEInitialTiming     10019de3 f   Hal8187Gen.obj
+ 0001:00018e89       _InitializeVariables8187   10019e89 f   Hal8187Gen.obj
+ 0001:00018f4c       _InitializeAdapter8187     10019f4c f   Hal8187Gen.obj
+ 0001:0001922a       _SetHwReg8187              1001a22a f   Hal8187Gen.obj
+ 0001:0001951b       _MRateToHwRate8185         1001a51b f   Hal8187TxDesc.obj
+ 0001:00019588       _IsUsbTxFreeContextAvailable 1001a588 f   Hal8187TxDesc.obj
+ 0001:000195f6       _RTusbCancelSentLowPendingIrp 1001a5f6 f   Hal8187TxDesc.obj
+ 0001:000196f7       _RTusbCancelSentHighPendingIrp 1001a6f7 f   Hal8187TxDesc.obj
+ 0001:0001979c       _SetupBeaconQueue8187      1001a79c f   Hal8187TxDesc.obj
+ 0001:00019860       _SendPacket8187            1001a860 f   Hal8187TxDesc.obj
+ 0001:000198a6       _SendPacketHigh8187        1001a8a6 f   Hal8187TxDesc.obj
+ 0001:00019928       _TxFillDescriptor8187      1001a928 f   Hal8187TxDesc.obj
+ 0001:00019ba4       _Send0BytePacketLow        1001aba4 f   Hal8187TxDesc.obj
+ 0001:00019bd9       _Send0BytePacketHigh       1001abd9 f   Hal8187TxDesc.obj
+ 0001:00019c0e       _HwRateToMRate8185         1001ac0e f   Hal8187RxDesc.obj
+ 0001:00019c7c       _NetgearSignalStrengthTranslate 1001ac7c f   Hal8187RxDesc.obj
+ 0001:00019d1e       _UpdateRssiSq8187          1001ad1e f   Hal8187RxDesc.obj
+ 0001:00019f73       _UpdateRssiSq8187_Workaround 1001af73 f   Hal8187RxDesc.obj
+ 0001:0001a00e       _QueryRxDescStatus8187     1001b00e f   Hal8187RxDesc.obj
+ 0001:0001a105       _RFSerialWrite8187         1001b105 f   Hal8187PhyCfg.obj
+ 0001:0001a242       _ZEBRA_RFSerialWrite       1001b242 f   Hal8187PhyCfg.obj
+ 0001:0001a431       _ZEBRA_RFSerialRead        1001b431 f   Hal8187PhyCfg.obj
+ 0001:0001a730       _RF_ReadReg                1001b730 f   Hal8187PhyCfg.obj
+ 0001:0001a76f       _SetZebraCckTxPower        1001b76f f   Hal8187PhyCfg.obj
+ 0001:0001a816       _SetZebraOfdmTxPower       1001b816 f   Hal8187PhyCfg.obj
+ 0001:0001a8f2       _SetTxPowerLevel8187       1001b8f2 f   Hal8187PhyCfg.obj
+ 0001:0001a976       _SetSwChnlCmdArray         1001b976 f   Hal8187PhyCfg.obj
+ 0001:0001a9ac       _SwChnlByTimer8187         1001b9ac f   Hal8187PhyCfg.obj
+ 0001:0001aa12       _ZEBRA_RFSerialWriteBy8051 1001ba12 f   Hal8187PhyCfg.obj
+ 0001:0001ac00       _GetRFPowerState8187       1001bc00 f   Hal8187PhyCfg.obj
+ 0001:0001ac11       _RF_WriteReg               1001bc11 f   Hal8187PhyCfg.obj
+ 0001:0001ac7c       _SwChnlStepByStep8187      1001bc7c f   Hal8187PhyCfg.obj
+ 0001:0001af02       _FinishSwChnlNow8187       1001bf02 f   Hal8187PhyCfg.obj
+ 0001:0001af38       _SwChnlByDelay8187         1001bf38 f   Hal8187PhyCfg.obj
+ 0001:0001af87       _SwChnlCallback8187        1001bf87 f   Hal8187PhyCfg.obj
+ 0001:0001aff5       _SwChnlCallback8187WorkItem 1001bff5 f   Hal8187PhyCfg.obj
+ 0001:0001b026       _MAXIM2825_Config          1001c026 f   Hal8187PhyCfg.obj
+ 0001:0001b73a       _ZEBRA_Config              1001c73a f   Hal8187PhyCfg.obj
+ 0001:0001bf07       _PhyConfig8187             1001cf07 f   Hal8187PhyCfg.obj
+ 0001:0001bf62       _SetZebraRFPowerState      1001cf62 f   Hal8187PhyCfg.obj
+ 0001:0001c079       _SetRFPowerState8187       1001d079 f   Hal8187PhyCfg.obj
+ 0001:0001c0ac       _SetZebra2CckTxPower       1001d0ac f   Hal8187Zebra2.obj
+ 0001:0001c14d       _SetZebra2OfdmTxPower      1001d14d f   Hal8187Zebra2.obj
+ 0001:0001c201       _ZEBRA2_Config             1001d201 f   Hal8187Zebra2.obj
+ 0001:0001ca24       _ActSetWirelessMode8187_Zebra2 1001da24 f   Hal8187Zebra2.obj
+ 0001:0001d067       _CAM_program_entry         1001e067 f   HalCam.obj
+ 0001:0001d128       _CAM_mark_invalid          1001e128 f   HalCam.obj
+ 0001:0001d190       _CAM_empty_entry           1001e190 f   HalCam.obj
+ 0001:0001d243       _CAM_read_entry            1001e243 f   HalCam.obj
+ 0001:0001d307       _CamAddOneEntry            1001e307 f   HalCam.obj
+ 0001:0001d38b       _CamDeleteOneEntry         1001e38b f   HalCam.obj
+ 0001:0001d3ab       _CamResetAllEntry          1001e3ab f   HalCam.obj
+ 0001:0001d3e5       _CamDumpAllCallbackWorkItem 1001e3e5 f   HalCam.obj
+ 0001:0001d441       _MpCopyPacket              1001e441 f   Ndis5Common.obj
+ 0001:0001d4b8       _CopyFromUnicodeToOS       1001e4b8 f   N5C_Init.obj
+ 0001:0001d4eb       _CopyFromUnicodeToString   1001e4eb f   N5C_Init.obj
+ 0001:0001d511       _RegistryDecode            1001e511 f   N5C_Init.obj
+ 0001:0001d624       _StringToHex               1001e624 f   N5C_Init.obj
+ 0001:0001d769       _TranslateNdisPsToRtPs     1001e769 f   N5C_Init.obj
+ 0001:0001d783       _ReadCommonRegistry        1001e783 f   N5C_Init.obj
+ 0001:0001da2c       _UpdateDefaultSetting      1001ea2c f   N5C_Init.obj
+ 0001:0001db20       _RestoreLastInitSetting    1001eb20 f   N5C_Init.obj
+ 0001:0001dc82       _GetChannelFrequency       1001ec82 f   N5C_Req.obj
+ 0001:0001dcaa       _WithWirelessB             1001ecaa f   N5C_Req.obj
+ 0001:0001dcfa       _WithWirelessG             1001ecfa f   N5C_Req.obj
+ 0001:0001dd62       _WithWirelessA             1001ed62 f   N5C_Req.obj
+ 0001:0001ddb3       _FilterRtBss               1001edb3 f   N5C_Req.obj
+ 0001:0001de0c       _TranslateRtBssToNdisBss   1001ee0c f   N5C_Req.obj
+ 0001:0001df6c       _Query_802_11_CAPABILITY   1001ef6c f   N5C_Req.obj
+ 0001:0001dfba       _N5CQueryInformation       1001efba f   N5C_Req.obj
+ 0001:0001ee07       _N5CSetInformation         1001fe07 f   N5C_Req.obj
+ 0001:0001fae0       _NdisStallExecution        10020ae0 f   ndis:NDIS.dll
+ 0001:0001fae6       _DbgPrint                  10020ae6 f   ndis:NDIS.dll
+ 0001:0001faec       _NdisQueryPacket           10020aec f   ndis:NDIS.dll
+ 0001:0001faf2       _EventModify               10020af2 f   coredll:COREDLL.dll
+ 0001:0001faf8       __alldiv                   10020af8 f   coredll:COREDLL.dll
+ 0001:0001fafe       _LocalFree                 10020afe f   coredll:COREDLL.dll
+ 0001:0001fb04       _LoadLibraryW              10020b04 f   coredll:COREDLL.dll
+ 0001:0001fb0a       _CreateThread              10020b0a f   coredll:COREDLL.dll
+ 0001:0001fb10       _AdvertiseInterface        10020b10 f   coredll:COREDLL.dll
+ 0001:0001fb16       _LocalAlloc                10020b16 f   coredll:COREDLL.dll
+ 0001:0001fb1c       __aulldiv                  10020b1c f   coredll:COREDLL.dll
+ 0001:0001fb22       __allshl                   10020b22 f   coredll:COREDLL.dll
+ 0001:0001fb28       __allmul                   10020b28 f   coredll:COREDLL.dll
+ 0001:0001fb2e       _DllMain                   10020b2e f   corelibc:dllmain.obj
+ 0001:0001fb44       __DllMainCRTStartup        10020b44 f   corelibc:pegdmain.obj
+ 0001:0001fbc6       __cinit                    10020bc6 f   corelibc:crt0dat.obj
+ 0001:0001fc68       __cexit                    10020c68 f   corelibc:crt0dat.obj
+ 0001:0001fc7c       __IMPORT_DESCRIPTOR_NDIS   10020c7c     ndis:NDIS.dll
+ 0001:0001fc90       __IMPORT_DESCRIPTOR_COREDLL 10020c90     coredll:COREDLL.dll
+ 0001:0001fca4       __NULL_IMPORT_DESCRIPTOR   10020ca4     ndis:NDIS.dll
+ 0002:00000000       __imp___allshl             10022000     coredll:COREDLL.dll
+ 0002:00000004       __imp___aulldiv            10022004     coredll:COREDLL.dll
+ 0002:00000008       __imp__CloseHandle         10022008     coredll:COREDLL.dll
+ 0002:0000000c       __imp__WaitForSingleObject 1002200c     coredll:COREDLL.dll
+ 0002:00000010       __imp__LocalAlloc          10022010     coredll:COREDLL.dll
+ 0002:00000014       __imp__AdvertiseInterface  10022014     coredll:COREDLL.dll
+ 0002:00000018       __imp__CreateThread        10022018     coredll:COREDLL.dll
+ 0002:0000001c       __imp__LoadLibraryW        1002201c     coredll:COREDLL.dll
+ 0002:00000020       __imp__GetProcAddressW     10022020     coredll:COREDLL.dll
+ 0002:00000024       __imp__FreeLibrary         10022024     coredll:COREDLL.dll
+ 0002:00000028       __imp__CreateEventW        10022028     coredll:COREDLL.dll
+ 0002:0000002c       __imp__DisableThreadLibraryCalls 1002202c     coredll:COREDLL.dll
+ 0002:00000030       __imp__LocalFree           10022030     coredll:COREDLL.dll
+ 0002:00000034       __imp__Sleep               10022034     coredll:COREDLL.dll
+ 0002:00000038       __imp___alldiv             10022038     coredll:COREDLL.dll
+ 0002:0000003c       __imp__EventModify         1002203c     coredll:COREDLL.dll
+ 0002:00000040       __imp___allmul             10022040     coredll:COREDLL.dll
+ 0002:00000044       \177COREDLL_NULL_THUNK_DATA 10022044     coredll:COREDLL.dll
+ 0002:00000048       __imp__NdisDeregisterAdapter 10022048     ndis:NDIS.dll
+ 0002:0000004c       __imp__NdisRegisterAdapter 1002204c     ndis:NDIS.dll
+ 0002:00000050       __imp__NdisMSleep          10022050     ndis:NDIS.dll
+ 0002:00000054       __imp__NdisMSetPeriodicTimer 10022054     ndis:NDIS.dll
+ 0002:00000058       __imp__NdisQueryBuffer     10022058     ndis:NDIS.dll
+ 0002:0000005c       __imp__NdisQueryPacket     1002205c     ndis:NDIS.dll
+ 0002:00000060       __imp__NdisFreePacket      10022060     ndis:NDIS.dll
+ 0002:00000064       __imp__NdisFreeBuffer      10022064     ndis:NDIS.dll
+ 0002:00000068       __imp__NdisUnchainBufferAtFront 10022068     ndis:NDIS.dll
+ 0002:0000006c       __imp__NdisCloseConfiguration 1002206c     ndis:NDIS.dll
+ 0002:00000070       __imp__NdisReadConfiguration 10022070     ndis:NDIS.dll
+ 0002:00000074       __imp__NdisOpenConfiguration 10022074     ndis:NDIS.dll
+ 0002:00000078       __imp__NdisResetEvent      10022078     ndis:NDIS.dll
+ 0002:0000007c       __imp__NdisFreeBufferPool  1002207c     ndis:NDIS.dll
+ 0002:00000080       __imp__NdisInterlockedDecrement 10022080     ndis:NDIS.dll
+ 0002:00000084       __imp__NdisAllocateBufferPool 10022084     ndis:NDIS.dll
+ 0002:00000088       __imp__NdisAllocatePacketPoolEx 10022088     ndis:NDIS.dll
+ 0002:0000008c       __imp__NdisInterlockedIncrement 1002208c     ndis:NDIS.dll
+ 0002:00000090       __imp__NdisMSetAttributesEx 10022090     ndis:NDIS.dll
+ 0002:00000094       __imp__NdisMGetDeviceProperty 10022094     ndis:NDIS.dll
+ 0002:00000098       __imp__NdisMRegisterMiniport 10022098     ndis:NDIS.dll
+ 0002:0000009c       __imp__NdisInitializeWrapper 1002209c     ndis:NDIS.dll
+ 0002:000000a0       __imp__NdisAllocateBuffer  100220a0     ndis:NDIS.dll
+ 0002:000000a4       __imp__NdisAllocatePacket  100220a4     ndis:NDIS.dll
+ 0002:000000a8       __imp__NdisReadNetworkAddress 100220a8     ndis:NDIS.dll
+ 0002:000000ac       __imp__NdisScheduleWorkItem 100220ac     ndis:NDIS.dll
+ 0002:000000b0       __imp__DbgPrint            100220b0     ndis:NDIS.dll
+ 0002:000000b4       __imp__NdisInitializeEvent 100220b4     ndis:NDIS.dll
+ 0002:000000b8       __imp__NdisWaitEvent       100220b8     ndis:NDIS.dll
+ 0002:000000bc       __imp__NdisFreeEvent       100220bc     ndis:NDIS.dll
+ 0002:000000c0       __imp__NdisSetEvent        100220c0     ndis:NDIS.dll
+ 0002:000000c4       __imp__NdisReleaseSpinLock 100220c4     ndis:NDIS.dll
+ 0002:000000c8       __imp__NdisAcquireSpinLock 100220c8     ndis:NDIS.dll
+ 0002:000000cc       __imp__NdisFreeSpinLock    100220cc     ndis:NDIS.dll
+ 0002:000000d0       __imp__NdisAllocateSpinLock 100220d0     ndis:NDIS.dll
+ 0002:000000d4       __imp__NdisGetCurrentSystemTime 100220d4     ndis:NDIS.dll
+ 0002:000000d8       __imp__NdisMCancelTimer    100220d8     ndis:NDIS.dll
+ 0002:000000dc       __imp__NdisMInitializeTimer 100220dc     ndis:NDIS.dll
+ 0002:000000e0       __imp__NdisFreeMemory      100220e0     ndis:NDIS.dll
+ 0002:000000e4       __imp__NdisAllocateMemoryWithTag 100220e4     ndis:NDIS.dll
+ 0002:000000e8       __imp__NdisStallExecution  100220e8     ndis:NDIS.dll
+ 0002:000000ec       __imp__NdisFreePacketPool  100220ec     ndis:NDIS.dll
+ 0002:000000f0       __imp__NdisSetTimer        100220f0     ndis:NDIS.dll
+ 0002:000000f4       \177NDIS_NULL_THUNK_DATA   100220f4     ndis:NDIS.dll
+ 0002:000000f8       ___xc_a                    100220f8     corelibc:crt0init.obj
+ 0002:000000fc       ___xc_z                    100220fc     corelibc:crt0init.obj
+ 0002:00000100       ___xi_a                    10022100     corelibc:crt0init.obj
+ 0002:00000104       ___xi_z                    10022104     corelibc:crt0init.obj
+ 0002:00000108       ___xp_a                    10022108     corelibc:crt0init.obj
+ 0002:0000010c       ___xp_z                    1002210c     corelibc:crt0init.obj
+ 0002:00000110       ___xt_a                    10022110     corelibc:crt0init.obj
+ 0002:00000114       ___xt_z                    10022114     corelibc:crt0init.obj
+ 0002:00000374       _GlobalDebugLevel          10022374     Debug.obj
+ 0002:00000378       _GlobalDebugComponents     10022378     Debug.obj
+ 0002:000003a4       _DSSS_Freq_Channel         100223a4     MgntLink.obj
+ 0002:00000428       _message                   10022428     1x_kmsm_hmac.obj
+ 0002:0000042c       _mess56                    1002242c     1x_kmsm_hmac.obj
+ 0002:00000468       _dig1                      10022468     1x_kmsm_hmac.obj
+ 0002:0000046c       _dig2                      1002246c     1x_kmsm_hmac.obj
+ 0002:00000470       _dig3                      10022470     1x_kmsm_hmac.obj
+ 0002:00000474       _testarray                 10022474     1x_kmsm_hmac.obj
+ 0002:00000484       _repeatcount               10022484     1x_kmsm_hmac.obj
+ 0002:00000494       _resultarray               10022494     1x_kmsm_hmac.obj
+ 0002:000004a4       _key0                      100224a4     1x_kmsm_hmac.obj
+ 0002:000004b8       _digest0                   100224b8     1x_kmsm_hmac.obj
+ 0002:000004c8       _digest01                  100224c8     1x_kmsm_hmac.obj
+ 0002:000004e0       _prf01                     100224e0     1x_kmsm_hmac.obj
+ 0002:00000520       _key1                      10022520     1x_kmsm_hmac.obj
+ 0002:00000528       _data1                     10022528     1x_kmsm_hmac.obj
+ 0002:00000548       _digest1                   10022548     1x_kmsm_hmac.obj
+ 0002:00000558       _digest11                  10022558     1x_kmsm_hmac.obj
+ 0002:00000570       _prf11                     10022570     1x_kmsm_hmac.obj
+ 0002:000005b0       _key2                      100225b0     1x_kmsm_hmac.obj
+ 0002:000005c4       _data2                     100225c4     1x_kmsm_hmac.obj
+ 0002:000005f8       _digest2                   100225f8     1x_kmsm_hmac.obj
+ 0002:00000608       _digest21                  10022608     1x_kmsm_hmac.obj
+ 0002:00000620       _prf21                     10022620     1x_kmsm_hmac.obj
+ 0002:00000660       _tests                     10022660     1x_kmsm_hmac.obj
+ 0002:000006b8       _DescString8187            100226b8     Hal8187Gen.obj
+ 0002:00000704       _EEPROMOffset8187          10022704     Hal8187Gen.obj
+ 0002:00000718       _DefaultChannelPlan        10022718     Hal8187Gen.obj
+ 0002:00000c88       _ZEBRA_CCK_TXPOWER         10022c88     Hal8187PhyCfg.obj
+ 0002:00000cbc       _ZEBRA_CCK_TXPOWER_C14     10022cbc     Hal8187PhyCfg.obj
+ 0002:00000cf0       _ZEBRA_OFDM_TXPOWER        10022cf0     Hal8187PhyCfg.obj
+ 0002:00000cf8       _ZEBRA_CCK_OFDM_GAIN_SETTING 10022cf8     Hal8187PhyCfg.obj
+ 0002:00001200       _DefaultSSID               10023200     N5C_Init.obj
+ 0002:00001208       _DefaultKey                10023208     N5C_Init.obj
+ 0002:00001720       _RTL_AllocateMemory_count  10023720     UsbPlatformWindows.obj
+ 0002:00001724       _RTL_FreeMemory_count      10023724     UsbPlatformWindows.obj
+ 0002:00001728       _RTL_AllocateMemory_Len    10023728     UsbPlatformWindows.obj
+ 0002:0000172c       _RTL_FreeMemory_Len        1002372c     UsbPlatformWindows.obj
+ 0002:00001730       _pUsbExtension             10023730     usbdrv.obj
+ 0002:00001734       _tab_gen                   10023734     SECAES_CCM.obj
+ 0002:00001740       _crc32_table               10023740     <common>
+ 0002:00001b40       _pow_tab                   10023b40     <common>
+ 0002:00001c40       _il_tab                    10023c40     <common>
+ 0002:00002c40       _d_key                     10024c40     <common>
+ 0002:00002d40       _ft_tab                    10024d40     <common>
+ 0002:00003d40       _log_tab                   10025d40     <common>
+ 0002:00003e40       _rco_tab                   10025e40     <common>
+ 0002:00003e80       _isb_tab                   10025e80     <common>
+ 0002:00003f80       _fl_tab                    10025f80     <common>
+ 0002:00004f80       _k_len                     10026f80     <common>
+ 0002:00004fa0       _it_tab                    10026fa0     <common>
+ 0002:00005fa0       _sbx_tab                   10027fa0     <common>
+ 0002:000060a0       _RegNdis51                 100280a0     <common>
+ 0002:000060a4       ___onexitend               100280a4     <common>
+ 0002:000060a8       ___onexitbegin             100280a8     <common>
+ 0002:000060ac       __exitflag                 100280ac     <common>
+ 0002:000060b0       __pRawDllMain              100280b0     <common>
+
+ entry point at        0001:0001fb44
+
+ Static symbols
+
+ 0001:00002d6e       _UsbIoCompleteRecv         10003d6e f   usb_main.obj
+ 0001:000147be       ___Encode                  100157be f   1x_md5c.obj
+ 0001:000147ef       _MD5Transform              100157ef f   1x_md5c.obj
+ 0001:00015302       _SHSTransform              10016302 f   1x_kmsm_hmac.obj
+ 0001:000169dd       _longReverse               100179dd f   1x_kmsm_hmac.obj
+ 0001:000195a6       _UsbIoCompleteSentLow      1001a5a6 f   Hal8187TxDesc.obj
+ 0001:000196a7       _UsbIoCompleteSentHigh     1001a6a7 f   Hal8187TxDesc.obj
+ 0001:0001fbae       __initterm                 10020bae f   corelibc:crt0dat.obj
+ 0001:0001fbe8       _doexit                    10020be8 f   corelibc:crt0dat.obj

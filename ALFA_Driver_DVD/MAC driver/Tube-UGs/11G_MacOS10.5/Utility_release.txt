@@ -1,0 +1,79 @@
+v1.3.0 
+      - first release of UI
+
+v1.3.1
+      - fix disassociation issue
+ 
+v1.3.2      
+      - fix encription algorithm string of mix mode
+ 
+v1.3.3
+	-fix status SSID showing incorrect 
+
+v1.3.4
+	-Install the driver also install the GUI
+	-GUI always run and detect card insertion and show up
+
+v1.3.5
+	-Reboot PC, GUI can be triggered automatically
+
+v1.3.6
+	-GUI won't close after adapter removed
+	-Fix an issue with Reboot showing incorrect
+v.1.3.7
+	-Fix the Uninstall problem
+	-remove Min button
+	-Fix SSID>32 Characters problem
+v.1.3.8
+	-Fix an issue with SSID showing incorrect
+v.1.3.9
+	-Fix an issue with channel showing incorrect
+v1.4.0
+	-Fix an issue with SSID show incorrectly
+	-Fix an issue that system can not reboot
+v1.4.1
+	-Remove profiles
+	-Show '*' in key field
+v1.4.2
+	-Fixed bug when WLAN card do not configure and click the refresh button, the UI will
+	 crash
+v1.4.3
+	-Added the Advance Setting item
+v1.4.4	
+	-Fixed Wireless Network key issue
+v1.4.5	
+	-Fixed save unchanging key issue 
+v1.4.6
+	-Fixed Sometimes UI crash
+	-Fixed Default profile issue
+	-Add Channel plan issue
+v1.4.7  
+	-Fixed adhoc edit profile issue
+v1.4.8  
+	-Add QOS Mode  
+v1.4.9  
+	-Fix channel plan array out of bound 
+v1.5.0  
+	-Fixed no mask in profile list 
+	-Fixed add profile issue
+	-Do not allow profile have the same profile name
+	-Record the advance configuration
+v1.5.1  
+	-AP mode
+	-Added PSPxlink
+	-Fixed wake up issue
+	-Fixed scan AP issue
+v1.5.2  
+	-Support MacOS10.5
+v1.5.3
+	-Integrated version
+v1.5.4
+	-Support RTL8192U 
+v1.5.5
+	-Fixed Default values issue
+v1.5.6
+	-Fixed connection issue
+	-Fixed change encryption issue
+v1.5.7
+	-Fixed string issue
+	-Fixed multiple instances issue  

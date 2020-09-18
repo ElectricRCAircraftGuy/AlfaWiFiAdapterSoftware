@@ -1,0 +1,17 @@
+Title StartupItems
+Version 
+Description 
+DefaultLocation /Library/StartupItems
+DeleteWarning 
+
+### Package Flags
+
+NeedsAuthorization YES
+Required NO
+Relocatable NO
+RequiresReboot NO
+UseUserMask NO
+OverwritePermissions YES
+InstallFat NO
+RootVolumeOnly NO
+OnlyUpdateInstalledLanguages NO

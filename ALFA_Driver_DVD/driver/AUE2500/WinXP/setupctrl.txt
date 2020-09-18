@@ -1,0 +1,20 @@
+;Install
+;WINXP
+
+
+;WINVISTA and WIN7
+
+
+;Uninsall
+;WINXP
+
+
+;WINVISTA and WIN7
+
+
+;EnableModifyButton
+
+;UninstNicDrvBeforeInst
+
+;INST_KILL_PROCESS
+;Realtek - Ethernet Diagnostic Utility

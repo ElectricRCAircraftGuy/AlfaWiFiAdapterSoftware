@@ -1,0 +1,4 @@
+qcfilter.inf version: 08/22/2018,5.0.1.7
+qcmdm.inf version:    08/22/2018,5.0.1.7
+qcser.inf version:    08/22/2018,5.0.1.7
+qcwwan.inf version:   08/22/2018,5.0.1.7

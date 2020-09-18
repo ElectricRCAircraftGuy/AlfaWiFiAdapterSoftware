@@ -1,0 +1,47 @@
+[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\3034_33159\Default\Default\RTL8187]
+   "DLL"="RTL8187.DLL"
+
+[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\2118_27136\Default\Default\RTL8187]
+   "DLL"="RTL8187.DLL"
+   
+[HKEY_LOCAL_MACHINE\Drivers\USB\ClientDrivers\RTL8187]
+   "DLL"="RTL8187.DLL"
+   "IClass"="{4d36e972-e325-11ce-bfc1-08002be10318}"
+   
+[HKEY_LOCAL_MACHINE\Comm\RTL8187]
+   "Group"="NDIS"
+   "ImagePath"="RTL8187.DLL"
+    "IClass"="{4d36e972-e325-11ce-bfc1-08002be10318}"
+
+[HKEY_LOCAL_MACHINE\Comm\RTL81871] 	     ; Isaiah 
+    "DisplayName"="RTL8187 Wireless Adapter" 
+    "Group"="NDIS" 
+    "ImagePath"="RTL8187.DLL"
+
+[HKEY_LOCAL_MACHINE\Comm\RTL81871\Parms]
+   "BusNumber"=dword:0
+   "BusType"=dword:0  ; Isaiah 
+   ;"LedCtrl"="1"
+ 
+ ;Registry values for the PPP driver
+[HKEY_LOCAL_MACHINE\Comm\RTL81871\Parms\TcpIp]
+   "EnableDHCP"=dword:1
+   ; This should be MULTI_SZ
+   "DefaultGateway"=""
+   ; Use zero for broadcast address? (or 255.255.255.255)
+   "UseZeroBroadcast"=dword:0
+   ; Thus should be MULTI_SZ, the IP address list
+   "IpAddress"="0.0.0.0"
+   ; This should be MULTI_SZ, the subnet masks for the above IP addresses
+   "Subnetmask"="0.0.0.0"
+   "DNS"="0.0.0.0" 	  ; Isaiah 
+   "WINS"="0.0.0.0"		; Isaiah 
+
+
+;[HKEY_LOCAL_MACHINE\DebugZones]
+;"USB HCD"=dword:0ffff
+;"USBD"=dword:0ffff
+;"UHCI"=dword:0ffff
+;"EHCI"=dword:0ffff   
+;"Ndis"=dword:0ffff 
+;"CXPORT"=dword:0ffff

@@ -1,0 +1,380 @@
+Date		Version	Note
+===============+========+=============================================================================================
+2005.08.18	1.163	1. Fix shared-key authentication bug.
+
+2005.08.24	1.164	1. Fix AP mode shared-key authentication bug.
+
+2005.08.24	1.165	1. Fix the bug about setting invalid channel number via OID.
+
+2005.08.25	1.17	1. Regular revision.
+
+2005.10.07	1.180	1. Implement AES and WPA2.
+
+2005.10.13	1.181	1. Fix the bug about too man buffers in a NDIS_PACKET to send.
+			2. Fix the bug of RFOff failed at initializaion.
+
+2005.10.17	1.182	1. Fix the bug about key length of AES on Win98SE/WinME.
+
+2005.10.19	1.183	1. Fix OS hangs when we plug two 8187 on one machine.
+
+2005.10.24	1.184	1. Fix the bug about WOL.
+
+2005.10.27	1.185	1. Fix the bug about WOL from S5.
+
+2005.11.02	1.186	1. Add turbo mode feature.
+
+2005.11.04	1.187	1. Solve WPA-none AES issue in win98se with eappkt9x.vxd.
+
+2005.11.17	1.188	1. Fix the bug about bluescreen when we unplug during chariot throughput testing.
+			2. Fix the bug about too long time to unload driver when we unplug just after plugged.
+			3. Change turbo mode default setting to "Enable."
+			4. Add feature: use pin "GPIO1" to turn on/off RF for buletooth.
+
+2005.11.18	1.189	1. Fix a bug that we can not scan to any AP.
+
+2005.11.21	1.190	1. Modify length of passphrase in AP mode: 8-63.
+
+2005.11.29	1.191	1. Implement EzConfig/AutoConfig with RTL8186.
+			2. Use hardware beacon in AP mode.
+
+2005.12.09	1.192	1. Fix a bug about privacy bit and capability setting in AP mode WEP encryption.
+			2. Revise the EIFS setting.
+			3. Fix a bug about OS hanged when 8187 unplugged on Windows ME.
+
+2005.12.09	1.193	1. Implement OID for qurying HW RFOff status.
+			2. Regular revision for WHQL test.
+
+2005.12.12	1.194	1. Fix a bug in GPIO pin RF changing.
+			2. Revise the default EIFS/DIFS setting.
+
+2005.12.14	1.195	1. Disable turbo mode in Ad-Hoc mode.
+
+2005.12.16	1.196	1. Revise the response rate.
+
+2005.12.19	1.197	1. Revise EIFS setting.
+			2. Modify parameters with Zebra2.
+
+2005.12.27	1.198	1. Auto select channel of SW AP.
+
+2005.12.28	1.199	1. Revise auto select channel mechanism.
+
+2006.01.20	1.200	1. Fix Cisco 1242 compatability issue.
+
+2006.01.24	1.201	1. Add ASUS 8187 VID/PID.
+			2. Handle the registy entries: 	MaxPktSize, ShortRetryLimit,
+			LongRetryLimit, LongRetryLimit, RTSThresh.
+
+2006.01.24	1.202	1. Replace the parameter description "WiFi 11b IBSS" with "IBSS Default 11b Mode".
+
+2006.01.26	1.203	1. Revise AP mode beacon for ASUS WiFi phone power save mode.
+			2. Revise auto select channel setting.
+
+2006.02.14	1.204	1. Solve USB 1.1 Rx performance issue.
+
+2006.02.16	1.205	1. Solve USB 1.1 Rx performance issue.
+
+2006.02.16	1.206	1. Hidde SSID.
+			2. Locked STA MAC address.
+
+2006.02.16	1.207	1. Revise Z2 parameter.
+			2. Handle class2 and class3 error on AP mode.
+
+2006.02.27	1.208	1. Change default value of STA LiveTime in AP mode.
+
+2006.03.01	1.209	1. Fix the error in rtl8187.rc on v1208.
+
+2006.03.03	1.210	1. Review 802.11 power management.
+			2. Review SW AP mode.
+			3. Improve throughput when B mode STA in current IBSS.
+
+2006.03.07	1.211	1. Revise AP mode beacon behavior.
+
+2006.03.09	1.212	1. Fix the bug when we disable device on Windows 2000.
+			2. Revise Z2 parameter.
+
+2006.03.16	1.213	1. Allow device to use g mode under USB 1.1.
+
+2006.03.10	1.214	1. Return device description from that of INF.
+			2. Smooth Z2 signal strength report.
+			3. Smooth data rate report.
+
+2006.03.10	1.215	1. Fix a bug about TBTT calculation.
+
+2006.03.21	1.216	1. Solve the problem OS hangs on Win98Se/ME since v1203.
+			2. Revise LED behavior (SW LED mode 1).
+			3. Handle the EEPROMID=0xAABB
+
+2006.03.22	1.217	1. Fix a bug in auto turbo mode with 8186.
+
+2006.03.22	1.218	1. Allow device to use g mode under USB 1.1.
+			2. Revise SW AP beacon behavior.
+
+2006.04.04	1.219	1. Turbo mode spec cahnge.
+			2. Fix Tx stuck bug encountered in WHQL test.
+			3. Implment signal quality report.
+
+2006.04.12	1.221	1. Implement SW_LED_MODE2 for AzWave 8187 minicard.
+			2. Fix the bug that OID_RT_FORCED_DATA_RATE can't set to Auto(0).
+			3. Fix a fragmentation sequnece number bug.
+			4. Correct scanned IBSS encryption and authentication status shown on UI.
+
+2006.04.18	1.222	1. Implement Antenna Diversity for minicard interface.
+			2. Implement per-sta fixed data rate in SW AP mode.
+
+2006.04.21	1.223	1. Fix IBSS throughput issue.
+			2. Customized for Sercomm.
+
+2006.04.26	1.224	1. Turn off auto-rate fallback mechanism when destination STA is configured to 
+			be fixed data rate.
+
+2006.05.02	1.225	1. Don't display surprisely remove icon for minicard.
+
+2006.05.05	1.226	1. Review counter measure flow for WPA2 logo.
+			2. Fix HW RF bug at AP mode.
+			3. Add AP mode rate adaptive.
+			4. Perform WOL on every RF.
+
+2006.05.09	1.227	1. Fix S3 resume issue.
+
+2006.05.10	1.228	1. Revise adding WEP key.
+			2. Fix the bug about TxOK when RF is off.
+
+2006.05.12	1.229	1. Revise for WPA2.
+			2. Fix 8187 minicard RF Off issue.
+			3. Fix the bug about AP mode auto select channel mechanism.
+			4. Implment OID for new no registry UI architecture.
+
+2006.05.30	1.230	1. Fix AZ minicard LED bug when switch to HW RF off.
+			2. Improve AP mode rate-Adaptive.
+			3. Revise for WiFi WPA2 Mandatory Testplan v1.2.
+			4. Add an CustomID, 0x03, for HW LED.	
+			5. Fix Win98SE/ME IBSS cause OS hangs.
+			6. Revise for HCT test.
+
+2006.06.10	1.231	1. Fix Rx throughput issue.
+
+2006.06.22	1.232	1. Support WDS.
+
+2006.06.23	1.233	1. Fix XP SP1 flash disk unplug issue.
+			2. Fix the bug scanning few AP after ping over 12 hr.
+
+2006.06.30	1.234	1. Fix X64 WHQL bug found in v1233.
+
+2006.07.04	1.235	1. Speed up initialization on USB 1.1.
+			2. Revise rate adaptive mechanism.
+			3. Customize IBSS wireless mode for wg111v2 on USB 1.1.
+
+2006.07.18	1.236	1. Add Surecom VID/PID.
+
+2006.07.20	1.237	1. Add Sercomm VID/PID.
+
+2006.07.26	1.238	1. Fix a roaming bug since v1235.
+
+2006.07.27	1.239	1. Add option of channel weighting for auto select channel feature.
+
+2006.08.03	1.240   1. Revise channel plan 
+ 			2. Revice Ad-hoc mode led behavior
+
+2006.08.08	1.241   1. Indicate disconnected when radio is off.
+
+2006.08.10	1.242	1. Fix reconnect issue when channel is clear from adumbrated.
+			   (only public for certain factory)
+
+2006.08.10	1.243	1. Add Qcom VID/DID.
+
+2006.08.10	1.244	1. Revise turbo mode mechanism.
+
+2006.09.06	1.245	1. Fix mix-mode( WPA-TKIP , WPA2-AES ) can't connent to AP 
+			   with WPA-TKIP issue.
+			2. Add PSP XLink support.
+			3. Fix low throughput issue under ad hoc mode.
+
+2006.09.25	1.246	1. Wake on magic packet WinXP.
+			2. Revise MAC parameter for Rx throughput.
+			3. Revise MAC paramter for USB 1.1.
+			4. Revise for DHCP issue on USB 1.1.
+
+2006.09.29	1.247	1. Add Cameo VID/DID.
+
+2006.10.17	1.248	1. Support WPS (Simple config).
+			2. Fix the compatibility issue of AP Belkin_F5D7230-4 in WPA and WPA2 mode.
+
+2006.10.26	1.249	1. Solve iPerf UDP issue.
+			2. Revise HW parameter for 8186.
+
+2006.11.03	1.250	1. Add Netgear VID/DID on Vista.
+
+2006.11.07	1.251	1. Fix incorrect channel and frequency on Vista.
+			2. Fix OID_DOT11_RTS_THRESHOLD, OID_DOT11_RTS_THRESHOLD.
+
+2006.11.14	1.252	1. Reduce power consumption minicard interface. 
+
+2006.11.16	1.253	1. Revise AP mode data rate behavior.
+
+2006.11.20	1.254	1. Fix Buffer Overflow issue.
+
+2006.11.23	1.255	1. Fix Buffer Overflow issue.
+			2. Revise HW parameter to turn OFF RF.
+
+2006.11.24	1.256	1. Fix fast plug/unplug caused system hang on Vista.
+			2. Fix can't connect back to AP after wake up from standby
+			   on Vista.
+			3. Fix long beacon attack on Vista.
+			4. Fix connecting to hidden AP issue on Vista.
+
+2006.11.29	1.257	1. [Vista] Fix channel error.
+			2. [Vista] Fix roaming issue which roaming failed between different channel.
+			3. [Vista] Fix reporting operation rate error.
+			4. [Vista] Indicate link quality periodically.
+			5. [Vista] Add custom oid mapping for winxp 802.11 oid.
+
+2006.12.01	1.258	1. Revise power save state issue
+			2. [Vista] Fix TX nested lock issuew hen unplug the device surprisely.
+			3. [Vista] Fix driver loading issue.
+			4. [Vista] Fix connecting to hidden AP issue 
+			5. [Vista] Fix plug/unplug caused scan fail.
+			6. [Vista] Add RTS, Frag threshold, channel plan, wireless mode, preamble to property setting.
+			7. [Vista] Fix IBSS bug issue.
+
+2006.12.07	1.259	1. [Vista] Fix IBSS mode association behavior.
+			2. [Vista] Fix Encryption key index issue.
+			3. [Vista] Fix an mistake in disasso indication.
+
+2006.12.07	1.261	1. [Vista] Fix encryption key cleaning error.
+
+2006.12.12	1.262	1. [Vista] Fix power mgnt issue.
+			2. [Vista] Modify statistics reporting.
+			3. [Vista] implment oid_dot11_reset_request.
+			4. [Vista] hidden ssid issue.
+
+2006.12.18	1.263	1. [Vista] Review signal strength.
+			2. [Vista] Fix Vista driver hibernate bug.
+			3. [Vista] Fix B mode IBSS bug.
+			4. [Vista] Improve infra-structure mode, Ad-Hoc mode throughput.
+
+2006.12.18	1.264	1. [Vista] Add Hw Rf Off.
+
+2006.12.19	1.265	1. [Vista] Fix unstable throughput issue.
+			2. [Vista] Fix Hw Rf Off failed issue.
+			3. [Vista] Fix power consumption issue in connected state.
+
+2006.12.21	1.266	1. [Vista] Fix IBSS with RSNA issue.
+			2. [Vista] Fix start IBSS issue, can't joined and leave more than two times.
+			3. [Vista] Fix rate adaptive bug.
+			4. [Vista] Fix several hidden AP issue.
+
+2006.12.22	1.267	1. [Vista] Fix the mismatch hidden AP info issue.
+
+2006.12.29	1.268	1. [Vista] Add AP mode.
+			2. [Vista] Fix IBSS resume connection loss bug.
+			3. [Vista] Review 8187 minicard LED behavior.
+			4. [Vista] Fix IBSS STA rejoin twice bug.
+			5. [Vista] Fix LED flashing bug when wake up from sleep mode.
+			6. [Vista] Review BSS signal strength report.
+			7. [Vista] Indicate Tx rate to upper layer.
+
+2007.01.02	1.269	1. [Vista] Fix can't site survey when connect to ap which is not exist.
+
+2007.01.04      1.270   1. [Vista] Revise DTM test.
+
+2007.01.05	1.271	1. [Vista] Enhance rate adaptive.
+			2. [Vista] Enhance site survey.
+
+2007.01.06	1.272	1. [Vista] Revise for DTM powermgmt_cmn test.
+
+2007.01.11	1.273	1. [Vista] Revise for DTM powermgmt_cmn test.
+			2. [Vista] Review 802.11 power-save mode.
+			3. [Vista] Review Rx signal strength.
+			4. [Vista] Review wake up link behavior.
+
+2007.01.12	1.274	1. [Vista] Fix wrong retry rate.
+			2. [Vista] Fix scan and connect conflict between different UI.
+
+2007.01.17	1.275	1. [Vista] Add WMM and PSP related OID.
+
+2007.01.22	1.276	1. [Vista] Support WPA-PSK AES and WPA2-PSK AES/TKIP in AP mode.
+
+2007.01.23	1.277	1. [Vista] Review LED behavior for power off at S4.
+			2. [Vista] Fix Quanta MA3F lapetop Rx FIFO overflow.
+			3. [Vista] Enhance site survey.
+
+2007.01.25	1.278	1. Fix AP mode and Ad Hoc mode switching issue.
+			2. [Vista] Fix LED bug during driver disable or s3/s4.
+			3. [Vista] Fix RF ON bug when we resume from s4 with RF off.
+			4. [Vista] Fix s4/s0 can't scan issue.
+
+2007.01.29	1.279	1. [Vista] Revise AP mode WEP with H/W codec.
+
+2007.01.30	1.281	1. Revise RF OFF and SLEEP parameters.
+
+2007.02.05	1.282	1. [Vista] Fix failed to site survey in certain platform.
+			2. [Vista] Fix fast plug/unplug issue.
+			3. Fix issue which failed to connect to G mode only AP.
+
+2007.02.07	1.283	1. Improve G only AP connection compatibility.
+
+2007.02.13	1.284	1. [Vista] Implement AP mode customization features.
+			2. [Vista] Revise USB behavior for C3 mode in RF OFF.	
+			3. [Vista] Fix AP mode wrong SSID association bug.
+			4. [Vista] Add turbo mode realted OID and registry.
+
+2007.02.15	1.285	1. [Vista] Fix RF OFF BSOD bug.
+
+2007.03.07	1.286	1. [Vista] Fix site survey issue for surcomm printer server.
+
+2007.03.08	1.287	1. Revise memory management at receiving packet.
+
+2007.03.26	1.288	1. Revise fragment range
+
+2007.04.17		1. Prevent SoftAP beacon from stop on specific platform.
+
+2007.04.19		1. Add Wi-Fi Protected Setup in Vista.
+
+2007.04.19    	1.291	Lable 
+
+2007.05.10	1.292	1. [Vista] Fix one SoftAP with five station BSOD
+
+2007.05.18	1.293	1. [Vista] Fix connection recovery.
+					2. [XP]    Fix WEP error in WPS
+
+2007.05.23	1.294	1. [Vista] Fix the ASUS WiFi Phone connection fail.
+
+2007.05.24	1.295	1. [Vista] Fix service name issue.
+
+2007.06.15	1.296	1. Fix PSP Disconnection issue.
+
+2007.06.22	1.297	1. Fix unusual electronic current issue.
+
+2007.06.26	1.298	1. Fix link status when testing Antenna switch.
+
+2007.06.27	1.299	1. Fix RF Off status.
+
+2007.06.27	1.300	1. Revise customized rate adaptive mechanism.
+			2. Revise Tx Retry Limit for PSP Xlink.
+
+2007.07.05	1.301	1. Revise tx performance.
+
+2007.07.17	1.302	1. [Vista] Revise usb control transfer.
+
+2007.09.07	1.303	1. Add Wake on wireless function
+
+2007.10.23	1.304	1. Windows XP Logo.
+
+2007.11.09	1.305	1. [Vista] Fix the bug of reconnection from S3/S4 resume.
+
+2007.11.21	1.306	1. [Vista] Revise reconnection request.
+
+2007.11.23	1.307	1. WEP Authentication timeout revision.
+
+2007.12.14	1.308	1. Release latest driver.
+
+2008.01.25      1.309   1. Speed up Sw AES encrypt in USB-bus.
+			2. Fix Supplicant WPA2 index error.
+
+2008.01.28      1.310   1. Fix XP nVidia chipset USB throughput issue.
+
+2008.04.15	1.311	1. Revise connect request for customization.
+
+2008.04.16	1.312	1. Connect request revision.
+
+2008.06.13	1.313	1. For WLK1.2

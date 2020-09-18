@@ -1,0 +1,270 @@
+Release Note:
+########################################################
+V1.00.0000  (2007/06/06) By Karl
+[UI]          
+                   RtWlan:V402, 1480, 0606, 2007 (By Karl)
+                   RTxAdmin :V1.0.402.2007 (By Karl)
+                   EAPInstall :V1.0.0.1 (By Karl)
+                   DESKTOP: V1.0.529.2007 (By Karl)
+                   SetDrv98: V400.1160.207.2007 (By Karl)
+                   SetDrv98: V400.1170.514.2007 (By Karl)
+                   SetDrv64:V400.1160.207.2007 (By Karl)
+
+                   RtlVistaStart:V1.0.0.1 (By Jacken)
+                   RtlStartInstal:(By Jacken)
+                   ScanDevInsert:(By Jacken)
+                   SetVistaDrv:(By Jacken)
+                   SetVistaDrv64:(By Jacken)
+
+                   Rtkbind: V1.0.0.1
+[LIB]
+                   RTlLIB(Eappkt): V220, 3100, 314, 2007 (By Karl)
+                   RtlLIB(Aegis): V330, 1060, 515, 2007 (By Karl)
+	RtlLIB(Vista): V330, 1060, 522, 2007  (By Mars)
+                  RtlGina :V1.0.0.3 (By Karl)
+                  EnumDevLib : V402.128.518.2007 (By Karl)
+                  RtlICS : V1.0.320.2007 (By Karl)
+
+                  IpLib: V1.0.0.1
+                  acAuth: V4.0.2.0
+[Protocol Driver]
+                  Eappkt: V5.0.2195.5438
+                  RtlProt: V6.0.6000.16386
+
+[Features]
+	Driver:
+                              new.
+	Utility:
+                              new.
+[ Script_Functions]
+                   add IsSupport();  //Chack Install support this operation system.
+	add IsSupportUI();  //Chack UI support this operation system.
+                   add SelDriver();    //Chack Driver Type.(85/85B/87/87B)
+
+	//Create country list ---------------------
+	add CreateCountryList ();
+	add SetSelectedCountry (STRING); 
+	add SelCountryDomains();
+	//----------------------------------------------  
+[Documentation]
+	(070606)RTALTEK Wireless Network Utility(v2.0).doc
+#########################################################
+V1.00.0001  (2007/06/14) By Karl
+[UI]          
+                   RtWlan:V402, 1480, 0606, 2007 (By Karl)
+[LIB]
+	UpDate: 
+                   RtlLIB(Vista): V330, 1090, 515, 2007  (for Vista By Mars)
+#########################################################
+V1.00.0002  (2007/06/15) By Karl
+
+[UI]
+	UpDate: 
+                   RtlLIB(Vista): V330, 1100, 615, 2007  (for Vista By Mars)
+#########################################################
+V1.00.0003  (2007/06/21) By Karl
+
+[LIB]
+	UpDate: 
+                   EAPInstall :V500.1001.621.2007 (By Karl)
+#########################################################
+V1.00.0004  (2007/06/25) By Karl
+
+[UI]
+	UpDate: 
+                   RtWLan :V402.1480.0612.2007 (By Vincent)
+#########################################################
+V1.00.0005  (2007/06/26) By Karl
+
+[UI]
+	UpDate: 
+                   RtWLan :V402.1490.0626.2007 (By Karl)
+#########################################################
+V1.00.0006  (2007/06/27) By Karl
+
+[UI]
+	UpDate: 
+                   RtWLan :V500.1491.0627.2007 (By Karl)
+#########################################################
+V1.00.0006  (2007/06/27) By Karl
+
+[UI]
+	UpDate: 
+                   RtWLan :V500.1491.0627.2007 (By Karl)
+##########################################################
+V1.00.0007  (2007/08/02) By Karl
+
+[UI]
+	UpDate: 
+                   RtWLan :V500.1493.724.2007  (By Karl & Jacken)
+[LIB]
+	UpDate: 
+                   RtlLIB(Vista): V330.1101.730.2007  (By Mars & Jacken)
+                   RtlLIB(2K/XP/2003):V402.1291.724.2007 (By Mars & Jacken)
+                   RtlLIB(98/ME): V220.3101.724.2007 (By Jacken)
+[Protocol Driver]
+                  Eappkt: V500.1001.802.2007  (By Mars)
+
+[ Script_Functions]
+                  1.Fix BACK Button bug.  (By Karl )
+                  2.Add OnMaintUIBefore() (about MODIFY / REPAIR / REMOVEALL)  (By Karl )
+                  3.Fix SetSelectedCountry(Channel plan) bug.  (By Karl )
+                  4. add Support InstallShield_Contact=nicfae@realtek.com.tw (IsConfig.INI).  (By Karl )
+                  5. add Support TARGETDIR=OEM\Wireless LAN Driver and Utility (IsConfig.INI).  (By Karl )
+ 
+#########################################################
+V1.00.0008  (2007/08/03) By Karl
+
+Support limit user for Vista UI.
+[UI]
+        Deletion:
+                 RtlVistaStart.exe (No longer needs to use)
+                 RtlStartInstal.exe (No longer needs to use)
+                 ScanDevInsert.exe (No longer needs to use)
+
+	ADD: 
+                 RtlService.exe : V500.1001.720.2007 (By Karl)
+                 //Run UI in the system service
+                 ReStart.exe : V500.1001.718.2007 (By Karl)
+                 //Control UI service
+
+#########################################################
+V1.00.0009  (2007/08/29) By Jacken
+
+Add 8190 Model
+[UI]
+        UpDate: 
+                   RtWLan :V500.1495.806.2007  (By Jacken)
+[LIB]
+        UpDate: 
+                   RtlLIB(Vista): V330.1120.827.2007  (By Mars & Jacken)
+                   RtlLIB(2K/XP/2003):V402.1292.803.2007 (By Mars & Jacken)
+                   RtlLIB(98/ME): V220.3103.815.2007 (By Jacken)
+#########################################################
+V1.00.0010  (2007/10/03) By Karl (¥u§ïInstallShield SourceCode)
+
+
+[ Script_Functions]
+        Fix 802.1X Bug (About 802.1x not run on SYSTEM)
+#########################################################
+V1.00.0011  (2007/10/15) By Jacken
+
+[UI]
+        UpDate: 
+                   RtWLan :V500.1498.926.2007  (By Jacken)
+[LIB]
+        UpDate: 
+                   RtlLIB(Vista): V330.1123.912.2007  (By Mars)
+                   RtlLIB(2K/XP/2003):V402.1294.912.2007 (By Mars)
+                   RtlLIB(98/ME): V220.3103.815.2007 (By Jacken)
+#########################################################
+V1.00.0012  (2007/10/23) By Jacken
+
+[SetDrv]
+        Update:    SetDrv(XP) : V400.1181.1023.2007
+		   SetVistaDrv(Vista) : V1.0.0.3 
+
+[UI]
+        UpDate: 
+                   RtWLan :V500.1502.1023.2007  (By Jacken)
+#########################################################
+V1.00.0013  (2007/10/29) By Jacken
+
+[InstallShield]
+        UpDate: 
+                   SetVistaDrv(Vista) : Use SetVistaDrv64 in WinX64  (By Jacken)
+
+[UI]
+        UpDate: 
+                   RtWLan :V500.1503.1025.2007  (By Jacken)
+#########################################################
+V1.00.0014  (2007/10/31) By Jacken
+
+[SetDrv]
+        Update:    SetDrv(XP) : V400.1182.1031.2007
+
+[UI]
+        UpDate: 
+                   RtWLan :V500.1504.1030.2007  (By Jacken)
+#########################################################
+V1.00.0015  (2007/11/06) By Jacken
+
+[LIB]
+        UpDate: 
+                   RtlLib(Vista) :V402.1125.1101.2007 (By HPFan)
+#########################################################
+V1.00.0016  (2007/11/08) By Jacken
+
+[InstallShield]
+        UpDate: 
+                   SetDrv64(WinX64) : Use SetDrv64 in WinX64  (By Jacken)
+		   Script file : 1.Fixed copy inf in WinXP
+				 2.Add source folder in shortcut
+		   
+[UI]
+        UpDate: 
+                   RtWLan :V500.1505.1108.2007  (By Jacken)
+#########################################################
+V1.00.0017  (2007/11/12) By Jacken
+
+[LIB]
+        UpDate: 
+                RtlLib(XP) :V402.1298.1112.2007 (By HPFan)   
+#########################################################
+V1.00.0018  (2007/11/15) By Jacken
+
+[InstallShield]
+        UpDate: 
+                 Script file : 1.Fixed full path run issue. 
+[UI]
+        UpDate: 
+                 RtWLan :V500.1506.1115.2007  (By Jacken)
+#########################################################
+V1.00.0019  (2007/11/26) By Jacken
+
+[InstallShield]
+        UpDate: 
+                 Script file : 1.Add Model to support 8192U & 8192P 
+[SetDrv]
+        Update:    SetDrv(XP) : V400.1183.1126.2007
+		   SetVistaDrv(Vista) : V1.0.0.4 
+[UI]
+        UpDate: 
+                 RtWLan :V500.1507.1126.2007  (By Jacken)
+		 RtlLib(XP) :V402.1296.1119.2007 (By HPFan)
+		 RtlLib(Vista) :V402.1129.1121.2007 (By HPFan)
+#########################################################
+V1.00.0020  (2007/11/27) By Jacken
+
+[InstallShield]
+        UpDate: 
+                 Script file : 1.Fixed "Wlan uitily" to "Wlan Utility"
+[SetDrv]
+        Update:    SetDrv(XP) : V400.1184.1127.2007
+		   SetVistaDrv(Vista) : V1.0.0.5 
+[UI]
+        UpDate: 
+                 RtWLan :V500.1508.1127.2007  (By Jacken)
+#########################################################
+V1.00.0021  (2007/11/28) By Jacken
+
+[UI]
+        UpDate: 
+                 RtlLib :V402.1300.1128.2007  (By Mars)
+#########################################################
+V1.00.0022  (2007/11/29) By Jacken
+
+[SetDrv]
+        Update:    SetDrv(XP) : V400.1185.1129.2007
+		   SetVistaDrv(Vista) : V1.0.0.6 
+[UI]
+        UpDate: 
+                 RtWLan :V500.1509.1129.2007  (By Jacken)
+#########################################################
+V1.00.0023  (2007/12/03) By Karl
+
+[UI]
+        UpDate: 
+                 RtWLan :V500, 1510, 1203, 2007  (By Karl)
+#########################################################
+

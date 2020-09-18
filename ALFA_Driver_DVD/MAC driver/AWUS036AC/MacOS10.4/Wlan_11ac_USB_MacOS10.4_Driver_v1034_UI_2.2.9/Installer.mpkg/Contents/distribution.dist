@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-script minSpecVersion="1.000000" authoringTool="com.apple.PackageMaker" authoringToolVersion="3.0.4" authoringToolBuild="179">
+    <title>Wireless-AC USB Adapter Driver</title>
+    <options customize="never" allow-external-scripts="no" rootVolumeOnly="true"/>
+    <script>
+function pm_choice0_selected() {
+  result = true;
+  result = result &amp;&amp; (my.target.systemVersion &amp;&amp; /* >= */ system.compareVersions(my.target.systemVersion.ProductVersion, '10.4.0') >= 0);
+  result = result &amp;&amp; (my.target.systemVersion &amp;&amp; /* &lt; */ system.compareVersions(my.target.systemVersion.ProductVersion, '10.5.0') &lt; 0);
+  return result;
+}
+
+
+function pm_choice0_enabled() {
+  result = true;
+  result = result &amp;&amp; (my.target.systemVersion &amp;&amp; /* >= */ system.compareVersions(my.target.systemVersion.ProductVersion, '10.4.0') >= 0);
+  result = result &amp;&amp; (my.target.systemVersion &amp;&amp; /* &lt; */ system.compareVersions(my.target.systemVersion.ProductVersion, '10.5.0') &lt; 0);
+  return result;
+}
+
+
+function pm_choice1_selected() {
+  result = true;
+  result = result &amp;&amp; (my.target.systemVersion &amp;&amp; /* >= */ system.compareVersions(my.target.systemVersion.ProductVersion, '10.4.0') >= 0);
+  result = result &amp;&amp; (my.target.systemVersion &amp;&amp; /* &lt; */ system.compareVersions(my.target.systemVersion.ProductVersion, '10.5.0') &lt; 0);
+  return result;
+}
+
+
+function pm_choice1_enabled() {
+  result = true;
+  result = result &amp;&amp; (my.target.systemVersion &amp;&amp; /* >= */ system.compareVersions(my.target.systemVersion.ProductVersion, '10.4.0') >= 0);
+  result = result &amp;&amp; (my.target.systemVersion &amp;&amp; /* &lt; */ system.compareVersions(my.target.systemVersion.ProductVersion, '10.5.0') &lt; 0);
+  return result;
+}
+
+
+function pm_choice7_selected() {
+  result = true;
+  result = result &amp;&amp; (my.target.systemVersion &amp;&amp; /* >= */ system.compareVersions(my.target.systemVersion.ProductVersion, '10.4.0') >= 0);
+  result = result &amp;&amp; (my.target.systemVersion &amp;&amp; /* &lt; */ system.compareVersions(my.target.systemVersion.ProductVersion, '10.5.0') &lt; 0);
+  return result;
+}
+
+
+function pm_choice7_enabled() {
+  result = true;
+  result = result &amp;&amp; (my.target.systemVersion &amp;&amp; /* >= */ system.compareVersions(my.target.systemVersion.ProductVersion, '10.4.0') >= 0);
+  result = result &amp;&amp; (my.target.systemVersion &amp;&amp; /* &lt; */ system.compareVersions(my.target.systemVersion.ProductVersion, '10.5.0') &lt; 0);
+  return result;
+}</script>
+    <welcome file="Welcome"/>
+    <readme file="ReadMe"/>
+    <license file="License"/>
+    <choices-outline>
+        <line choice="choice0"/>
+        <line choice="choice1"/>
+        <line choice="choice7"/>
+    </choices-outline>
+    <choice id="choice0" title="Utility" selected="pm_choice0_selected()" enabled="pm_choice0_enabled()">
+        <pkg-ref id="com.WirelessUtilityAC.pkg"/>
+    </choice>
+    <choice id="choice1" title="StartUP" selected="pm_choice1_selected()" enabled="pm_choice1_enabled()">
+        <pkg-ref id="com.WirelessSatrtUP.pkg"/>
+    </choice>
+    <choice id="choice7" title="Driver" selected="pm_choice7_selected()" enabled="pm_choice7_enabled()">
+        <pkg-ref id="com.WirelessDriverAC.pkg"/>
+    </choice>
+    <pkg-ref id="com.WirelessUtilityAC.pkg" installKBytes="4144" version="1" auth="Root">file:./Contents/Packages/wirelessacNetworkUtility.pkg</pkg-ref>
+    <pkg-ref id="com.WirelessUtilityAC.pkg">
+        <relocate search-id="pkmktoken18">
+            <bundle id="com.realtek.utility.wifi"/>
+        </relocate>
+    </pkg-ref>
+    <pkg-ref id="com.WirelessSatrtUP.pkg" installKBytes="4" version="1" auth="Root">file:./Contents/Packages/wlanac.pkg</pkg-ref>
+    <pkg-ref id="com.WirelessDriverAC.pkg" installKBytes="9068" version="1" auth="Root" onConclusion="RequireRestart">file:./Contents/Packages/rtl8812au4.pkg</pkg-ref>
+    <locator>
+        <search id="pkmktoken18-1" type="component">
+            <bundle CFBundleIdentifier="com.realtek.utility.wifi" path="/Applications/Wireless-AC Network Utility.app"/>
+        </search>
+        <search id="pkmktoken18-0" type="script" script="pkmktoken18_combined()">
+            <script>
+function pkmktoken18_combined() {
+	function pkmk_add_results_to_array(results, array) {
+		for(i = 0; i &lt; results.length; i++)
+			array.push(results[i]);
+	}
+	var result = new Array();
+	var search;
+	search = my.search.results['pkmktoken18-1'];
+	if(search) pkmk_add_results_to_array(search, result);
+	return result;
+}
+</script>
+        </search>
+        <search type="script" id="pkmktoken18" script="pkmktoken18_final()">
+            <script>
+function pkmktoken18_final() {
+	var combined = my.search.results['pkmktoken18-0'];
+	return combined;
+}
+</script>
+        </search>
+    </locator>
+</installer-script>

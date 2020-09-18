@@ -1,0 +1,10 @@
+; Example :
+; Remove the ';' will modify the parameter after installation
+
+;REG_DWORD
+;HwOption
+;0x00
+
+;NotShowCardNotFoundMsg
+
+Special InstCtrl

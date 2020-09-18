@@ -1,0 +1,5 @@
+[Autorun]
+action=Open autorun menu
+open=ALFAINSTALL.exe
+icon=alfa_a.ico,0
+label=ALFA DVD

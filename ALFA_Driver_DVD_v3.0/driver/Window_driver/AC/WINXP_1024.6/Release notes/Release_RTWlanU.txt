@@ -1,0 +1,547 @@
+/*****************************************************************************
+ *	Copyright(c) 2011,  RealTeK Technology Inc. All Right Reserved.
+ *  
+ *	Realtek RTL8192C USB 802.11B/G/N 300M Wireless NIC Release Note. 
+ *	
+ *	Description:	
+ *					VVVV.U.DDDD.YYYY
+ *					
+ *					VVVV	-	Version			-->	1015
+ *					U		-	Sub Version		-->	0
+ *					DDDD	-	Data	10/19	-->	1019
+ *					YYYY	-	Year	2007	-->	2007
+ * 
+ *****************************************************************************/
+
+
+############################################################################
+	Version:		
+	1000.0.0224.2010
+	
+	Reason:			
+	1. Formal Release
+	
+	
+############################################################################
+	Version:		
+	1001.0.0224.2010
+	
+	Reason:			
+	1. Fix 92CU uplink issue
+	
+	
+############################################################################
+	Version:		
+	1002.0.0311.2010
+	
+	Reason:			
+	1. Add VWifi feature
+	2. Fix Adhoc unstable
+	3. Improve throughput
+############################################################################
+	Version:		
+	1003.0.0326.2010
+	
+	Reason:			
+	1. Fix vwifi beacon issue.
+	2. Add WHQL related feature.
+
+	Version:		
+	1003.1.0402.2010
+	
+	Reason:		
+	1. Add HW WPS function.	
+
+############################################################################
+	Version:		
+	1004.0.0507.2010
+	
+	Reason:			
+	1. Improve performance with 8196B AP
+	2. Support 2X2 NIC
+	3. Prevent illegal TKIP packet length isue.	
+
+############################################################################
+	Version:		
+	1005.0.0603.2010
+	
+	Reason:			
+	1. Modify adapter halt process.
+	2. Modify LED behavior.
+	3. Improve connection quality with iPod
+	
+############################################################################
+	Version:		
+	1006.0.0614.2010
+	
+	Reason:			
+	1. Improve connection quality with iPod.
+
+############################################################################
+	Version:		
+	1007.0.0720.2010
+	
+	Reason:			
+	1. BT3.0+HS support.
+
+############################################################################
+	Version:		
+	1008.0.0806.2010
+	
+	Reason:			
+	1. WPS external registrar configure AP function.
+	2. Handle the case of unplugging USB flash disk when WLAN NIC is
+	   operating.
+
+############################################################################
+	Version:		
+	1009.0.0903.2010
+	
+	Reason:			
+	1. Support CU selective suspend.
+	2. Fix WPS error.
+	3. Improve Rf initialzie sequence.
+	
+############################################################################
+	Version:		
+	1010.0.0917.2010
+	
+	Reason:			
+	1. Improve CU selective suspend power save.
+	2. Add some PID for customers.
+	
+############################################################################
+	Version:		
+	1011.0.1110.2010
+	
+	Reason:			
+	1. Fine tune CU selective suspend sequence.
+	2. Add some VID/PID for customers.
+	3. Support 8188RU.
+	4. Update Wifi direct support.
+	5. Improve slim combo support. 
+	6. Support B/G mode recognize by PID.
+	
+############################################################################
+	Version:		
+	1012.0.1231.2010
+	
+	Reason:
+	1. Fix Wifi direct connect fail.
+	2. Improve BT reliabiilty.
+	3. Customized performance improvement.
+	4. Support WPS button under selective suspend.
+	5. Improve CPU utilization.
+	6. Support customerize ability.
+
+############################################################################	
+	Version:		
+	1013.0.0325.2011
+	
+	Reason:
+	1. Support 8723U.
+	2. Improve stack utilization.
+	3. Improve quick unplug stability.
+	4. Improve power save stability.	
+	5. Add CCX V5 relative support.
+	6. Update VID/PID table support to V50.
+	7. Improve disable/unplug speed on some platform.
+	8. Support WPS2.0.
+	9. Fix WIN7 soft AP mode BSOD.
+	
+############################################################################	
+	Version:		
+	1014.0.0509.2011	
+	
+	Reason:
+	1. Support 8192DU.
+	2. Support Wake on WLAN for USB.
+	3. Reduce memory utilization.
+	4. Support more RealTek WLAN devices in the same platform.	
+	5. Support customerize feature.
+	6. Revise Wifi Direct.
+	7. Revise OMNIPEAK support.
+	8. Fix 92D connect ad-hoc BSOD.
+	9. Improve Band/PHY switch stability for 92D.
+	
+############################################################################	
+	Version:		
+	1015.0.0712.2011	
+	
+	Reason:
+	1. Improve XP Concurrent stability.
+	2. Fix Soft AP Mode TKIP Link Fail.
+	3. Improve WPS link stability with Broadcom AP.
+	4. Fix Link Speed Display.	
+	5. Revise 88RU middle range throughput.
+	6. Revise BT ability for PCI.
+	7. Improve memory utilization and throughput for multiple pairs.
+	8. Support more customer ID.
+	9. Revise for windows WLK1.6.
+	10. Revise AMSDU receive path in driver version 1013/1014.
+	11. Improve TP for B mode.
+	12. Improve stability for CE_VAU in selective suspend mode.
+	
+	Version:		
+	1015.1.0726.2011	
+	
+	Reason:
+	1. Soft AP TKIP/WEP will be limited at G mode by inf.
+	2. Revise some requiremet for customer.
+	3. Revise selecitve suspend flow for RTK 92CU module.
+	
+	Version:		
+	1015.2.0906.2011	
+	
+	Reason:
+	1. Revise ADHOC LED blink method.
+	2. Improve ping response time.
+	3. Revise for 88RU.
+	4. Add WPS customerize feature.
+	5. Fix iperf test lower throughput.
+	
+	Version:
+	1015.3.0921.2011
+	
+	Reason:
+	1. Revise for wifi 11n logo.
+	2. Revise link speed display when RSSI is very low.	
+	
+	Version:
+	1015.4.1128.2011
+	
+	Reason:
+	1. Fix WNDAP3200 IOT in HT40 mode.
+	2. Fix WNDAP4500 IOT of poor TP due to packet collision.
+	3. Revise LED and WPS behavior according to Customer's requirement.
+	4. Revise different channel plan TX power adjustment mechanism for MCS8-15
+	
+	Version:
+	1015.5.1223.2011
+	1. Support customerize soft AP ability.
+	2. Support extension AP function.
+	3. Support customerize LED and wake on wlan behavior.
+	
+	Version:
+	1015.6.0210.2012
+	1. Fix Soft AP WPA mode link problem and improve long distance link.
+	2. Improve link qquality fpr WPA2 mode.
+	3. Improve throughput stability for wifi test.
+	4. Improve stability when driver verifier is enabled.
+
+	Version:
+	1015.7.0702.2012
+	1. Support TPLINK high power dongle with customerize feature.
+	2. Revise throughput for previous version.
+
+############################################################################	
+	Version:		
+	1016.0.0825.2011	
+	
+	Reason:
+	1. Support WIN8 multi port modification.
+
+############################################################################	
+	Version:		
+	1017.0.0825.2011	
+	
+	Reason:
+	1. Support WIN8 multi port modification.	
+
+############################################################################	
+	Version:		
+	1018.0.1202.2011	
+	
+	Reason:
+	1. Support new wifi direct modification.	
+
+############################################################################	
+	Version:		
+	1019.0.0615.2012	
+	
+	Reason:
+	1. Support 88EU.	
+	2. Support some customerize feature in 88E series.
+
+	Version:		
+	1019.1.0705.2012	
+	
+	Reason:
+	1. Revise IOT issue for TPLINK.
+
+	Version:		
+	1019.2.0914.2012	
+	
+	Reason:
+	1. Fix 20/40M throughput unstable issue with correct RF-BW setting.
+
+	Version:		
+	1019.3.1019.2012	
+	
+	Reason:
+	1. Support external registry for tx power dynamic mechanism.
+
+############################################################################	
+	Version:		
+	1020.0.0524.2012	
+	
+	Reason:
+	1. Revise NDIS selective suspend for external wakeup function
+	
+	Version:		
+	1020.1.0531.2012	
+	
+	Reason:
+	1. Revise radio on/off control for client
+
+############################################################################	
+	Version:		
+	1021.0.0716.2012	
+	
+	Reason:
+	1. Revise RSSI indication method
+	2. Revise some bugs for Win8 WHCK requirement
+	3. Revise AFE HW register settings
+	
+	Version:		
+	1021.1.0816.2012	
+	
+	Reason:
+	1. Revise Radio status inconsistency issue
+	2. Fix memory leakage for N6 timer
+	3. Fix data transfer fail when resuming from suspend state
+	4. Fix BSOD issue while running WHCK test
+	5. Fix Leisure power save Tx handling process to fix connection fail issue
+	6. Fix vWiFi stress WHCK and system restart stress BSOD issue
+	7. Fix connection fail when resuming from S3/S4 system power state
+	8. Fix BSOD issue while running S5 cold reboot endurance test.
+	9. BT device exception handling.
+	
+	Version:		
+	1021.2.0904.2012	
+	
+	Reason:
+	1. Improve WIN8 wifi direc link ability.
+	2. Revise WIN8 selective suspend flow.
+	
+	Version:		
+	1021.3.0912.2012	
+	
+	Reason:
+	1. Revise handler for WIN8 FSS behavior.
+	2. Add 92DU New PID/VID For Actiontec
+	
+	Version:		
+	1021.4.0928.2012	
+	
+	Reason:
+	1. Revise BT Coexistence mechanism to improve TP
+
+############################################################################	
+	Version:		
+	1023.0.0823.2012	
+	
+	Reason:
+	1. Support RTL8812AU.
+	
+	Version:		
+	1023.1.0920.2012	
+	
+	Reason:
+	1. Support RTL8821AU.
+	
+	Version:		
+	1023.2.1123.2012	
+	
+	Reason:
+	1. Support RTL8811AU.
+	2. Support WIN8 for 802.11AC RTK WLAN series.
+	3. Revise new channel plan definition.
+	4. Revise TX throughpit start rate level.
+	5. Fix 8812 XP scan fail.
+	6. Fix 8821 scan fail.
+	7. Support U2/U3 mode auto switch.
+	8. Revise scan list display algorithm for customer.
+	9. Revise the scan list handshake between Realtek UI and windowz auto config.
+	11. Revise for WPS2.0 and 11N wifi test.
+	12. Improve IOT performance with RTK AC AP.
+	13. Improve WPA-TKIP link ability.
+	14. Improve scan and startup speed.
+	15. Add for 11AC pugfest 4 modification.
+	16. Revise TX power constraint for customer.
+	17. Improve TX throughput.
+	18. Support high power 11AC series card.
+	19. Fix the scan fail issue for Belkin 11AC AP in G mode.
+	20. Fix site survey empty probelm for XP.
+
+	Version:		
+	1023.3.1203.2012
+	1. Support high power 11AC dongle.
+	2. Support 11n wifi pretest.
+
+	Version:		
+	1023.4.1218.2012	
+	
+	Reason:
+	1.Improve unstable throughput when unplug and plug 8812AU. 
+	2.Improve RX performance for middle/long range. 
+	3.Prevent UI to get incorrect scan list. 
+	4.Support U2/U3 mode switch OID query ability. 
+	5.Support special channel plan for customer. 
+
+	Version:		
+	1023.5.0116.2013	
+	
+	Reason:
+	1. Fix SoftAP DHCP issue.
+	2. Improve U2/U3 switch smoothly and add some limitation.
+	3. Revise copyright information.
+	4. Support LDPC&STBC OID query/set ability.
+	5. Revise TX power control flow. Fix power by rate and limit algorithm.
+	6. Support USB20 power current limit mechanism.
+	7. Fix VHT AMSDU enable condition.
+	8. Fix Link rate and wireless mode illegal problem.
+	9. Add new channel plan for customer.
+	10. Improve USB mode switch behavior and speed.
+	11. Add customerized power by rate table.
+
+
+	Version:		
+	1023.6.0225.2013	
+	
+	Reason:
+	1. Improve win8 throughput stability in some case.
+	2. Revise USB2.0 DMA parameters to improve stability.
+	3. Improve IOT with Atheros 11ac AP especially in RX throughput.
+	4. Fix Vista BSOD case when unload driver with dedicated platform.
+	5. Support customerize features.
+	6. Prevent init check conflict with firmware EFUSE read flow.
+	7. Prevent transmit and receiv stop due to incorrect MAC mode.
+	8. Revise LED behaviror for customer.
+
+
+	Version:		
+	1023.7.0408.2013	
+	
+	Reason:
+	1. Revise USB 2/3 switch algorithm for all OS.
+	2. Revise RX path to prevent BSOD due to DPC watchdog in win8.
+	3. Revise DFS and adaptivity mechanism.
+	4. Improve multicast performance.
+	5. Support 802.11ac only wireless mode.
+	6. Support 8812-VL/VS/VN IC.
+	7. Fix link quality display rule for win7/win8.
+	8. Revise scan list parsing rule for 5G AP.
+	9. Improve RX performance for different application like file copy/iperf.
+
+
+	Version:		
+	1023.8.0524.2013	
+	
+	Reason:
+	1. Add more USB 2/3 switch mode algorithm.
+	2. Improve long distance perfomance with NEC 11ac AP.
+	3. Fix init error on customerize module.
+	4. Fix customer platfrom IOT issues.
+	5. Fix customerize scan list mechanism.
+
+
+	Version:		
+	1023.9.0711.2013	
+	
+	Reason:
+	1. Add REG for RCR settings for different customer requirement.
+	2. Revise customized inf.
+	3. Fix USB fast switch mode. 
+	4. Revise incorrect USB XHCI packet length parsing.
+	5. Fix 20/40MH switch rate adaptive mechanism.
+	6. Fix R6300 periodic throughput drop at 2.4G 40M mode due to wifi cetification.
+	7. Revise EFUSE parsing algorithm for different utilization.
+	8. Update customerized channel plan to R06.
+	9. Enhance adaptivity mechanism.
+
+	Version:		
+	1023.10.0812.2013	
+	
+	Reason:
+	1. Revise beacon bandwidth parsing rule for AP IOT probelm.
+	2. RTL8192CU revise TX power adjustment mechanism.
+
+
+############################################################################		
+	Version:		
+	1024.0.0218.2013	
+	
+	Reason:
+	1. Revise USB2.0 11AC series iperf RX performance setting.
+	2. Revise for TR switch control flow.
+	3. Support different board type for 11AC series.
+	
+
+	Version:		
+	1024.1.0510.2013	
+	
+	Reason:
+	1. Revise IQK for 11ac series.
+	2. Support more board type for 8812AU.
+	3. Revsie IOT issue with Atheros 11ac AP.
+	4. Revise LED behavior
+	5. Add customer's PID/VID
+	6. Merge all 1023.6/7 driver's modification to improve performance.
+	7. Support 8812A 256Q for customer.
+	8. Revise 8812A USB mode siwtch mechanish for long distance.
+
+
+	Version:		
+	1024.2.0618.2013	
+	
+	Reason:
+	1. [8812AU]: Fix improper init flow in 1024.1.
+	2. [8812AU]: Fix USB switch fast mode scan limitation.
+	3. [8812AU]: Fix win8 airplan mode switch error.
+	4. [8812AU]: Update FW to V21.
+	5. [8812AU]: Customize LED.
+	6. [8812AU]: Enable AGC diff while channel switching.
+	7. [8188RU]: Customize RSSI showed on UI.
+	8. [All IC]: Add EnableAdaptivity reg to UI.
+
+
+	Version:		
+	1024.3.0718.2013	
+	
+	Reason:
+	1. [8812AU]: improve beam forming, EFUSE parsing. Add tx duty support.
+	2. [All IC]: Update more channel plan to R06.
+	3. [8812AU]: Update to 1023.9 revision, Revise tx duty for thermal.
+	4. [11acIC]: Revise for 2.4G 256QAM.
+	4. [8188EU]: Revise power table parsing rule. 
+
+	Version:		
+	1024.4.0910.2013	
+	
+	Reason:
+	1. Support coninstaller requirement for customers. 
+
+	Version:		
+	1024.5.0925.2013	
+	
+	Reason:
+	1. Support channel plan R11.
+	2. Fix Vwifi & STA concurrent mode RX error.
+	3. [11AC] Support special VHT24G mode.
+	4. Fix IOT probelm for infra structure mode,
+	5. [92DU] fix customer report issues.
+	6. [8723BU] fix init and scan
+	7. Revise beamforing mechanism.
+	8. [92EU] Fix WPS function.
+
+	Version:		
+	1024.6.1016.2013	
+	
+	Reason:
+	1. [8812AU] Add more USB switch mode.
+	2. [8812AU] Merge code from 1023 series driver.
+	3. [8812AU] Default Enable Beamforming.
+	4. [88EU] Revise Soft AP mode.
+	5. [8812AU] Customize LED behavior.
+

@@ -1,0 +1,66 @@
+[Country]
+AutoSelected=1
+xxnCountry=2
+
+[WLan Utility]
+WZC=0
+RtWLanTitle="REALTEK RTL8187 Wireless LAN Utility"
+MANUFACTURER="Realtek"
+Model_Name="RTL8187"
+NO_Adapter_TEXT1="Realtek Wireless LAN Configuration Utility"
+NO_Adapter_TEXT2="Realtek Semiconductor Corp."
+NO_Adapter_TEXT3="Copyright (c) 2003-2007"
+
+[UI Config]
+AP_Mode_ENABLE="0"
+AP_Mode_WPA_PSK_ENABLE="0"
+WPA2_ENABLE="0"
+AP_WPA2_ENABLE="0"
+WDS_AP_Mode_ENABLE="0"
+RT_SET_ENABLE="1"
+802_1X_SHOW="0"
+
+EzConfigPage_SHOW="0"
+SimpleConfigPage_SHOW="0"
+WiFiProtectSetPage_SHOW="0"
+
+PowerSave_SHOW="0"
+TurboMode_SHOW="0"
+WirelessMode_SHOW="1"
+PREAMBLE_SHOW="1"
+Channel_Plan_SHOW="1"
+XLink_SHOW="0"
+WMM_SHOW="0"
+RTS_Threshold_SHOW="1"
+Fragment_Threshold_SHOW="0"
+WOL_SHOW="0"
+DATA_RATE_SHOW="0"
+
+ZeroConfig_SHOW="0"
+
+[98UI Config]
+AP_Mode_ENABLE="0"
+AP_Mode_WPA_PSK_ENABLE="0"
+WPA2_ENABLE="1"
+AP_WPA2_ENABLE="0"
+WDS_AP_Mode_ENABLE="0"
+RT_SET_ENABLE="1"
+802_1X_SHOW="0"
+
+EzConfigPage_SHOW="0"
+SimpleConfigPage_SHOW="0"
+WiFiProtectSetPage_SHOW="0"
+
+PowerSave_SHOW="1"
+TurboMode_SHOW="1"
+WirelessMode_SHOW="1"
+PREAMBLE_SHOW="1"
+Channel_Plan_SHOW="1"
+XLink_SHOW="1"
+WMM_SHOW="1"
+RTS_Threshold_SHOW="1"
+Fragment_Threshold_SHOW="1"
+WOL_SHOW="0"
+DATA_RATE_SHOW="0"
+
+ZeroConfig_SHOW="0"

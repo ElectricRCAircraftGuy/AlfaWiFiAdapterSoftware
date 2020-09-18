@@ -1,0 +1,17 @@
+Title UI
+Version 
+Description 
+DefaultLocation /Applications
+DeleteWarning 
+
+### Package Flags
+
+NeedsAuthorization NO
+Required NO
+Relocatable NO
+RequiresReboot NO
+UseUserMask NO
+OverwritePermissions YES
+InstallFat NO
+RootVolumeOnly NO
+OnlyUpdateInstalledLanguages NO

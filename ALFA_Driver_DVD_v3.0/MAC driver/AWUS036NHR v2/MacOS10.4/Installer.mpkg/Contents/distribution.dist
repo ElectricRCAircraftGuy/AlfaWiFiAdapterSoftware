@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-script minSpecVersion="1.000000" authoringTool="com.apple.PackageMaker" authoringToolVersion="3.0.4" authoringToolBuild="179">
+    <title>Wireless USB Adapter Driver</title>
+    <options customize="never" allow-external-scripts="no" rootVolumeOnly="true"/>
+    <welcome file="Welcome"/>
+    <readme file="ReadMe"/>
+    <license file="License"/>
+    <choices-outline>
+        <line choice="choice0"/>
+        <line choice="choice1"/>
+        <line choice="choice7"/>
+    </choices-outline>
+    <choice id="choice0" title="Utility">
+        <pkg-ref id="com.WirelessUtility.pkg"/>
+    </choice>
+    <choice id="choice1" title="StartUP">
+        <pkg-ref id="com.wirelessUsbAdapterDriver.comtrendnet.pkg"/>
+    </choice>
+    <choice id="choice7" title="Driver">
+        <pkg-ref id="com.realtek"/>
+    </choice>
+    <pkg-ref id="com.WirelessUtility.pkg" installKBytes="4052" version="1" auth="Root">file:./Contents/Packages/wirelessNetworkUtility.pkg</pkg-ref>
+    <pkg-ref id="com.wirelessUsbAdapterDriver.comtrendnet.pkg" installKBytes="4" version="1" auth="Root">file:./Contents/Packages/wlan.pkg</pkg-ref>
+    <pkg-ref id="com.realtek" installKBytes="2672" version="1" auth="Root" onConclusion="RequireRestart">file:./Contents/Packages/rtl8192cut.pkg</pkg-ref>
+</installer-script>
