@@ -19,3 +19,15 @@ Whatever licenses Alfa has on this software is their business. I do not pretend 
 # Linux installation instructions
 
 todo
+
+
+Notes:
+
+    rsync -rah --dry-run --info=progress2 --stats '/media/gabriel/ALFA Driver DVD' ~/GS/dev/AlfaWiFiAdapterSoftware
+    time rsync -rah --info=progress2 --stats '/media/gabriel/ALFA Driver DVD' ~/GS/dev/AlfaWiFiAdapterSoftware
+
+See my ans: https://askubuntu.com/questions/17275/how-to-show-the-transfer-progress-and-speed-when-copying-files-with-cp/1275972#1275972
+
+    chmod -R ug+rw 'ALFA Driver DVD'
+
+See: https://fideloper.com/user-group-permissions-chmod-apache
