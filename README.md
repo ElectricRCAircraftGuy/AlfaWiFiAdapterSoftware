@@ -8,6 +8,8 @@ Software that comes on the CDs (which are inconvenient, hence why I'm making thi
 ALFA_AWUS036NH_2000mW_2.4GHz_LR
 .....
 
+... add photos of disks
+
 By Gabriel Staples  
 www.ElectricRCAircraftGuy.com  
 
