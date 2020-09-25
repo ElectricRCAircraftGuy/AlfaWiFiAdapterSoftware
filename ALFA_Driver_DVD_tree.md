@@ -1,3 +1,5 @@
+Here is the directory and file structure 3 levels deep.
+
 ```bash
 $ tree -L 3 ALFA_Driver_DVD
 ALFA_Driver_DVD
