@@ -38,7 +38,7 @@ www.ElectricRCAircraftGuy.com
 ## Disk copy instructions on Linux
 
 References:
-1. [my own answer]: https://askubuntu.com/questions/17275/how-to-show-the-transfer-progress-and-speed-when-copying-files-with-cp/1275972#1275972
+1. [my own answer] https://askubuntu.com/questions/17275/how-to-show-the-transfer-progress-and-speed-when-copying-files-with-cp/1275972#1275972
 1. https://fideloper.com/user-group-permissions-chmod-apache
 
 Here is how I copied the entire contents of the DVDs above on my Linux Ubuntu computer, FROM directory `/media/gabriel/ALFA Driver DVD` TO directory `~/GS/dev/AlfaWiFiAdapterSoftware`:
