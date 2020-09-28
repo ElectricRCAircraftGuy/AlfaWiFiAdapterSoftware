@@ -108,6 +108,69 @@ Here are the drivers I've installed for my use on Linux, and how I installed the
 
 TODO
 
+## AWUS036NH
+
+The device was just plug-and-play. I didn't have to manually install any driver! Tested on Ubuntu 20.04. 
+
+1. See what the name is of your internal wifi card, so we can disable it to force the computer to use the AWUS036NH long-range 2.4GHz USB adapter instead.
+
+    ```bash
+    iwconfig
+
+    ```
+
+    Mine shows `enp0s31f6`, `wlan0` (connected to my wifi network ESSID), and `lo`. So, `wlan0` is my internal wifi card.
+
+1. Plug in the Alfa USB adapter, and run `iwconfig` again. I now see a `wlan2` adapter as well. That is my Alfa USB adapter.
+1. Disable my internal wifi card (`wlan0` in my case) ([source](https://askubuntu.com/a/204536/327339)):
+
+    ```bash
+    # Turn OFF your internal wifi card
+    sudo ifconfig wlan0 down
+
+    # Note: if you ever need to turn it back on, simply run this:
+    # sudo ifconfig wlan0 up
+    ```
+
+1. Now, manually connect your USB adapter to your wifi network: click the drop-down menu at the top-right of your Ubuntu screen --> click the little arrow next to "Wi-Fi Not Connected" --> choose "Select Network", and connect from there. See the image below:
+
+    <p align="left" width="100%">
+        <img width="30%" src="images/Selection_035.png"> 
+    </p>
+
+1. Once you've connected, run `iwconfig` again:
+
+    ```bash
+    iwconfig
+    ```
+
+    You should see that `wlan2` (your external USB wifi adapter) is now connected to your network's ESSID (wifi network name) with `Frequency:2.447 GHz`, since this USB adapter works on 2.4GHz only. `wlan0` (your internal wifi card) should NOT be connected to anything now. Also take a look at your key connection information in the `iwconfig` output to see the quality of your connection, such as the following:
+
+    >     Frequency:2.447 GHz
+    >     Bit Rate=72.2 Mb/s   Tx-Power=30 dBm
+    >     Link Quality=70/70  Signal level=-19 dBm  
+
+    A bit rate of 72.2 Mb/sec is normal for this adapter, and a link quality of 70/70 with a signal level of -19 dBm is pretty much _perfect._ You can't get much better than that! Higher numbers are better. A really weak signal might look like `Quality=39/70  Signal level=-71 dBm`. To scan for all possible networks to connect to, run:
+
+    ```bash
+    iwlist wlan2 scanning
+    ```
+
+    And, to search specifically just for your ESSID for your network, filter that output with this command (source: see [my comment under this answer here](https://askubuntu.com/a/261410/327339)):
+
+    ```bash
+    iwlist wlan2 scanning | grep -C5 -i '\"my_network_name\"'
+    ```
+
+1. You may now go to https://speedtest.net to run a speed test to verify the speed of your connection, or use their [`speedtest` CLI tool](https://www.speedtest.net/apps/cli) from the command-line:
+
+    ```bash
+    speedtest
+    ```
+
+    Good speeds for this Alfa AWUS036NH 2.4GHz USB wifi adapter are **\~6\~13 Mbps download** and **\~15\~20 Mbps upload**. It is NOT a high-speed adapter. Instead, it is a **high power** (2000mW Tx power--highest on the market!--even today in the year 2020, despite it being made originally in like 2011 or something!) and **long range** wifi adapter! That's what its specialties are: high transmit power and long range!
+
+
 
 ----
 
