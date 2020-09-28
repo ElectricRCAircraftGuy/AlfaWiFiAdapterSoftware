@@ -1,6 +1,8 @@
 # Repo Status
 
-NOT READY.
+Ready for use. 
+
+The entire contents of multiple Alfa driver DVDs have been uploaded here, containing Windows, Mac, and Linux drivers for Alfa wifi adapters and products. 
 
 
 # AlfaWiFiAdapterSoftware
