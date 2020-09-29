@@ -19,7 +19,7 @@ www.ElectricRCAircraftGuy.com
 
 Anyone can edit this wiki (https://github.com/ElectricRCAircraftGuy/AlfaWiFiAdapterSoftware/wiki) to add your own instructions on how to install whatever Alfa or similar driver on any operating system, whether Windows, Mac, Linux, or something else.
 
-For my personal notes and driver installation instructions, see here: [Driver Installation Instructions on Linux](Driver-Installation-Instructions-on-Linux).
+For my personal notes and driver installation instructions, see this section of the readme, below: ["Driver Installation Instructions on Linux"](#Driver-Installation-Instructions-on-Linux).
 
 
 # Alfa Driver DVDs
