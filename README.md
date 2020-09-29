@@ -131,7 +131,7 @@ Tested on Ubuntu 20.04.
 
 NA. The device is just plug-and-play on Ubuntu now. You don't have to manually install any driver! 
 
-<a name="connect-and-configure"></a>
+<a name="AWUS036NH-connect-and-configure"></a>
 **CONNECT AND CONFIGURE:**
 
 1. With all external wifi adapters UNPLUGGED, see what the name is of your internal wifi card, so we can disable it to force the computer to use the external wifi USB adapter instead.
@@ -148,10 +148,10 @@ NA. The device is just plug-and-play on Ubuntu now. You don't have to manually i
 
     ```bash
     # Turn OFF your internal wifi card
-    sudo ifconfig wlan0 down
+    sudo ip link set wlan0 down
 
     # Note: if you ever need to turn it back on, simply run this:
-    # sudo ifconfig wlan0 up
+    # sudo ip link set wlan0 up
     ```
 
 1. Now, manually connect your USB adapter to your wifi network: click the drop-down menu at the top-right of your Ubuntu screen --> click the little arrow next to "Wi-Fi Not Connected" --> choose "Select Network", and connect from there. See the image below:
@@ -213,15 +213,66 @@ References:
 
 **INSTALL DRIVER:**
 
-todo
+With the device NOT plugged in, do:
 
-    tar -xvf AWUS036AC_036EAC_ACH_linux_v4.3.2_11100.20140411.tar
-    cd AWUS036AC_036EAC_ACH_linux_v4.3.2_11100.20140411
+    sudo apt update
+    sudo apt install build-essential git dkms libelf-dev linux-headers-`uname -r`
+    mkdir ~/Downloads/Install_Files/wifi
+    cd ~/Downloads/Install_Files/wifi
+    time git clone https://github.com/aircrack-ng/rtl8812au.git
+    cd rtl8812au
+    time sudo ./dkms-install.sh
+
+Now reboot.
+
+Done! Now jump to ["Connect and Configure" below](#AWUS036AC-connect-and-configure").
 
 
+Sample commands to this wifi adapter:
+
+```bash
+# turn device OFF (set interface down)
+sudo ip link set wlan0 down
+# turn device ON (set interface up)
+sudo ip link set wlan0 up 
+```
+
+NB: per the link below, do NOT use the below commands on this device. Use the commands above instead.
+```bash
+sudo ifconfig wlan0 down  # do NOT use; use `sudo ip link set wlan0 down` instead
+sudo ifconfig wlan0 up    # do NOT use; use `sudo ip link set wlan0 up` instead
+```
+
+For more info. and commands, see here: https://github.com/aircrack-ng/rtl8812au/tree/v5.6.4.2.
+
+
+_Notes to self:_
+
+1. Driver from Alfa won't build; seems to be an incompatibility issue with Linux kernels more recent than like 5 years ago.
+
+            tar -xvf AWUS036AC_036EAC_ACH_linux_v4.3.2_11100.20140411.tar
+            cd AWUS036AC_036EAC_ACH_linux_v4.3.2_11100.20140411
+            make
+    
+    FAILS TO BUILD! See my build errors here: https://github.com/gnab/rtl8812au/issues/207
+
+1. The Alfa AWUS036AC is here: https://www.alfa.com.tw/products_detail/3.htm
+    1. It uses the "Realtek RTL8812AU" chipset, so that's what I need to install drivers for!
+1. Sample google searches:
+    1. ["AWUS036AC_036EAC_ACH_linux_v4.3.2_11100.20140411 no member named 'data'"](https://www.google.com/search?q=AWUS036AC_036EAC_ACH_linux_v4.3.2_11100.20140411+no+member+named+%27data%27&oq=AWUS036AC_036EAC_ACH_linux_v4.3.2_11100.20140411+no+member+named+%27data%27&aqs=chrome..69i57.5501j0j7&sourceid=chrome&ie=UTF-8)
+    1. ["Realtek RTL8812AU linux driver install github"](https://www.google.com/search?sxsrf=ALeKk03aDsMOuB81JNWFUQQ0CZwigxtoqA%3A1601354945491&ei=wbxyX9y9HYTSsAXSiZL4DQ&q=Realtek+RTL8812AU+linux+driver+install+github&oq=Realtek+RTL8812AU+linux+driver+install+github&gs_lcp=CgZwc3ktYWIQAzIHCCEQChCgATIHCCEQChCgATIFCCEQqwIyBQghEKsCOg4IABCwAxCKAxC3AxDlAjoHCCMQrgIQJzoFCCEQoAFQl-UnWMvpJ2CA6ydoAnAAeAGAAcoCiAHBCZIBBzAuMi4yLjGYAQCgAQGqAQdnd3Mtd2l6yAEKuAECwAEB&sclient=psy-ab&ved=0ahUKEwicor2FyI3sAhUEKawKHdKEBN8Q4dUDCA0&uact=5)
+1. Sample driver repos for this chipset (ealtek RTL8812AU):
+    1. ***** [1114 commits; active 9 days ago; has tons of versions; seems to be the most up-to-date] https://github.com/aircrack-ng/rtl8812au
+    1. https://github.com/gordboy/rtl8812au-5.6.4.2
+    1. **** https://github.com/gnab/rtl8812au
+        1. Issue I opened: https://github.com/gnab/rtl8812au/issues/207
+    1. ***** [2352 commits; active 13 days ago] https://github.com/ulli-kroll/rtl8821au
+
+
+<a name="AWUS036AC-connect-and-configure"></a>
 **CONNECT AND CONFIGURE:**
 
-See and follow the ["Connect and Configure" instructions](#connect-and-configure) for the "AWUS036NH" adapter above.
+See and follow the ["Connect and Configure" instructions](#AWUS036NH-connect-and-configure) for the "AWUS036NH" adapter above. 
 
 
 
