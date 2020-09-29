@@ -15,9 +15,12 @@ By Gabriel Staples
 www.ElectricRCAircraftGuy.com  
 
 
-# Wiki
+# Wiki Instructions
 
 Anyone can edit this [wiki](https://github.com/ElectricRCAircraftGuy/AlfaWiFiAdapterSoftware/wiki) to add your own instructions on how to install whatever Alfa or similar driver on any operating system, whether Windows, Mac, Linux, or something else.
+
+
+# My Instructions
 
 For my personal notes and driver installation instructions, see this section of the readme, below: ["Driver Installation Instructions on Linux"](#Driver-Installation-Instructions-on-Linux).
 
@@ -116,6 +119,10 @@ Whatever licenses Alfa has on this software is their business. I do not pretend 
 
 Here are the drivers I've installed for my use on Linux, and how I installed them. 
 
+1. [Alfa AWUS036NH 2000mW Tx Power 2.4GHz USB Wi-Fi adapter](#AWUS036NH)
+1. [Alfa AWUS036AC 802.11ac Long Range AC1200 Dual Band 2.4GHz/5GHz WiFi USB adapter](#AWUS036AC)
+
+<a name="AWUS036NH"></a>
 ## Alfa AWUS036NH 2000mW Tx Power 2.4GHz USB Wi-Fi adapter
 
 Tested on Ubuntu 20.04. 
@@ -199,6 +206,7 @@ References:
     cd 2011_0719_RT3070_RT3370_RT5370_RT5372_Linux_STA_V2.5.0.3_DPO
 
 
+<a name="AWUS036AC"></a>
 ## Alfa AWUS036AC 802.11ac Long Range AC1200 Dual Band 2.4GHz/5GHz WiFi USB adapter
 
 **INSTALL DRIVER:**
