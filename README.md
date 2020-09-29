@@ -225,7 +225,7 @@ With the device NOT plugged in, do:
 
 Now reboot.
 
-Done! Now jump to ["Connect and Configure" below](#AWUS036AC-connect-and-configure").
+Done! Now jump to ["Connect and Configure" below](#AWUS036AC-connect-and-configure).
 
 
 Sample commands to this wifi adapter:
