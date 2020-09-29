@@ -4,6 +4,8 @@ Ready for use.
 
 The entire contents of multiple Alfa driver DVDs have been uploaded here, containing Windows, Mac, and Linux drivers for Alfa wifi adapters and products. 
 
+DRIVER INSTALLATION INSTRUCTIONS FOR THE AWUS036AC, HOWEVER, ARE A **WORK IN PROGRESS**.
+
 
 # AlfaWiFiAdapterSoftware
 
@@ -172,7 +174,7 @@ NA. The device is just plug-and-play on Ubuntu now. You don't have to manually i
     >     Bit Rate=72.2 Mb/s   Tx-Power=30 dBm
     >     Link Quality=70/70  Signal level=-19 dBm  
 
-    A bit rate of 72.2 Mb/sec is normal for this adapter, and a link quality of 70/70 with a signal level of -19 dBm is pretty much _perfect._ You can't get much better than that! Higher numbers are better. A really weak signal might look like `Quality=39/70  Signal level=-71 dBm`. To scan for all possible networks to connect to, run:
+    A bit rate of 72.2 Mb/sec is normal for this AWUS036NH 2.4GHz adapter, and a link quality of 70/70 with a signal level of -19 dBm is pretty much _perfect._ You can't get much better than that! Higher numbers are better. A really weak signal might look like `Quality=39/70  Signal level=-71 dBm`. To scan for all possible networks to connect to, run:
 
     ```bash
     iwlist wlan2 scanning
@@ -213,15 +215,19 @@ References:
 
 **INSTALL DRIVER:**
 
+Tested on Linux Ubuntu 20.04 with kernel `5.4.0-48-generic` (see the output of `uname -r` to see your kernel version).
+
 With the device NOT plugged in, do:
 
-    sudo apt update
-    sudo apt install build-essential git dkms libelf-dev linux-headers-`uname -r`
-    mkdir ~/Downloads/Install_Files/wifi
-    cd ~/Downloads/Install_Files/wifi
-    time git clone https://github.com/aircrack-ng/rtl8812au.git
-    cd rtl8812au
-    time sudo ./dkms-install.sh
+```bash
+sudo apt update
+sudo apt install build-essential git dkms libelf-dev linux-headers-`uname -r`
+mkdir ~/Downloads/Install_Files/wifi
+cd ~/Downloads/Install_Files/wifi
+time git clone https://github.com/aircrack-ng/rtl8812au.git
+cd rtl8812au
+time sudo ./dkms-install.sh
+```
 
 Now reboot.
 
@@ -274,6 +280,11 @@ _Notes to self:_
 
 See and follow the ["Connect and Configure" instructions](#AWUS036NH-connect-and-configure) for the "AWUS036NH" adapter above. 
 
+Note that when I run `iwconfig` with this Alfa AWUS036AC adapter plugged in, I see that it is called `wlx00c0caabd977`. If I unplug it and plug it back in, however, its name may get changed, and sometimes it is called `wlan0` even, while my internal wifi card becomes `wlan1`. You can tell which device is this external AWUS036AC adapter because it says `Nickname:"<WIFI@REALTEK>"` in the first line of `iwconfig` output for this device. 
+
+When viewing the output from `iwconfig`, a bit rate of \~174 Mbps is normal for this adapter when connected to a **2.4GHz network**. In short-range situations where my laptop's internal 2.4GHz network card gets 30\~50Mbps download and 20Mbps upload speeds, this adapter, on 2.4Ghz, get's a measly 4\~10 Mbps download and 3\~10 Mbps upload. I'm not sure why it sucks so bad. Perhaps it's the driver? 
+
+On a **5GHz network**...todo.
 
 
 
