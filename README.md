@@ -194,16 +194,16 @@ NA. The device is just plug-and-play on Ubuntu now. You don't have to manually i
 
 _Notes to self:_
 
-Don't need to do this now, since Ubuntu comes with driver support for this Realtek `RT chipset 3070, rev 0201` now. (See `dmesg` output after plugging in this Wifi adapter to see that it is the 3070 chipset).
+You don't need to do this below anymore, since Ubuntu comes with driver support for this Realtek `RT chipset 3070, rev 0201` now. (See `dmesg` output after plugging in this Wifi adapter to see that it is the 3070 chipset).
 
 References:
 
 1. https://askubuntu.com/questions/148767/how-do-i-install-the-ralink-rt3070-wireless-driver/148786#148786
 
-    sudo apt update
-    sudo apt install build-essential flex bison
-    tar -xjvf 2011_0719_RT3070_RT3370_RT5370_RT5372_Linux_STA_V2.5.0.3_DPO.bz2
-    cd 2011_0719_RT3070_RT3370_RT5370_RT5372_Linux_STA_V2.5.0.3_DPO
+        sudo apt update
+        sudo apt install build-essential flex bison
+        tar -xjvf 2011_0719_RT3070_RT3370_RT5370_RT5372_Linux_STA_V2.5.0.3_DPO.bz2
+        cd 2011_0719_RT3070_RT3370_RT5370_RT5372_Linux_STA_V2.5.0.3_DPO
 
 
 <a name="AWUS036AC"></a>
@@ -219,7 +219,7 @@ todo
 
 **CONNECT AND CONFIGURE:**
 
-See and follow the instructions for the "AWUS036NH" adapter above.
+See and follow the [instructions for the "AWUS036NH" adapter](#AWUS036NH) above.
 
 
 
