@@ -131,6 +131,7 @@ Tested on Ubuntu 20.04.
 
 NA. The device is just plug-and-play on Ubuntu now. You don't have to manually install any driver! 
 
+<a name="connect-and-configure"></a>
 **CONNECT AND CONFIGURE:**
 
 1. With all external wifi adapters UNPLUGGED, see what the name is of your internal wifi card, so we can disable it to force the computer to use the external wifi USB adapter instead.
@@ -156,7 +157,7 @@ NA. The device is just plug-and-play on Ubuntu now. You don't have to manually i
 1. Now, manually connect your USB adapter to your wifi network: click the drop-down menu at the top-right of your Ubuntu screen --> click the little arrow next to "Wi-Fi Not Connected" --> choose "Select Network", and connect from there. See the image below:
 
     <p align="left" width="100%">
-        <img width="30%" src="images/Selection_035.png"> 
+        <img width="35%" src="images/Selection_035.png"> 
     </p>
 
 1. Once you've connected, run `iwconfig` again:
@@ -190,6 +191,7 @@ NA. The device is just plug-and-play on Ubuntu now. You don't have to manually i
     ```
 
     Good speeds for this Alfa AWUS036NH 2.4GHz USB wifi adapter are **\~5\~13 Mbps download** and **\~10\~20 Mbps upload**. It is NOT a high-speed adapter. Instead, it is a **high power** (2000mW Tx power--highest on the market!--even today in the year 2020, despite it being made originally in like 2011 or something!) and **long range** wifi adapter! That's what its specialties are: high transmit power and long range, NOT high speed!
+1. Done!
 
 
 _Notes to self:_
@@ -219,7 +221,7 @@ todo
 
 **CONNECT AND CONFIGURE:**
 
-See and follow the [instructions for the "AWUS036NH" adapter](#AWUS036NH) above.
+See and follow the ["Connect and Configure" instructions](#connect-and-configure) for the "AWUS036NH" adapter above.
 
 
 
