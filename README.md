@@ -106,13 +106,17 @@ Whatever licenses Alfa has on this software is their business. I do not pretend 
 
 Here are the drivers I've installed for my use on Linux, and how I installed them. 
 
-TODO
+## Alfa AWUS036NH 2000mW Tx Power 2.4GHz USB Wi-Fi adapter
 
-## AWUS036NH
+Tested on Ubuntu 20.04. 
 
-The device was just plug-and-play. I didn't have to manually install any driver! Tested on Ubuntu 20.04. 
+**INSTALL DRIVER:**
 
-1. See what the name is of your internal wifi card, so we can disable it to force the computer to use the AWUS036NH long-range 2.4GHz USB adapter instead.
+NA. The device is just plug-and-play on Ubuntu now. You don't have to manually install any driver! 
+
+**CONNECT AND CONFIGURE:**
+
+1. With all external wifi adapters UNPLUGGED, see what the name is of your internal wifi card, so we can disable it to force the computer to use the external wifi USB adapter instead.
 
     ```bash
     iwconfig
@@ -121,7 +125,7 @@ The device was just plug-and-play. I didn't have to manually install any driver!
 
     Mine shows `enp0s31f6`, `wlan0` (connected to my wifi network ESSID), and `lo`. So, `wlan0` is my internal wifi card.
 
-1. Plug in the Alfa USB adapter, and run `iwconfig` again. I now see a `wlan2` adapter as well. That is my Alfa USB adapter.
+1. Plug in the external USB adapter, and run `iwconfig` again. I now see a `wlan2` adapter as well. That is my external USB adapter.
 1. Disable my internal wifi card (`wlan0` in my case) ([source](https://askubuntu.com/a/204536/327339)):
 
     ```bash
@@ -159,7 +163,7 @@ The device was just plug-and-play. I didn't have to manually install any driver!
     And, to search specifically just for your ESSID for your network, filter that output with this command (source: see [my comment under this answer here](https://askubuntu.com/a/261410/327339)):
 
     ```bash
-    iwlist wlan2 scanning | grep -C5 -i '\"my_network_name\"'
+    iwlist wlan2 scanning | grep -C5 -i 'my_network_name'
     ```
 
 1. You may now go to https://speedtest.net to run a speed test to verify the speed of your connection, or use their [`speedtest` CLI tool](https://www.speedtest.net/apps/cli) from the command-line:
@@ -168,7 +172,37 @@ The device was just plug-and-play. I didn't have to manually install any driver!
     speedtest
     ```
 
-    Good speeds for this Alfa AWUS036NH 2.4GHz USB wifi adapter are **\~6\~13 Mbps download** and **\~15\~20 Mbps upload**. It is NOT a high-speed adapter. Instead, it is a **high power** (2000mW Tx power--highest on the market!--even today in the year 2020, despite it being made originally in like 2011 or something!) and **long range** wifi adapter! That's what its specialties are: high transmit power and long range!
+    Good speeds for this Alfa AWUS036NH 2.4GHz USB wifi adapter are **\~5\~13 Mbps download** and **\~10\~20 Mbps upload**. It is NOT a high-speed adapter. Instead, it is a **high power** (2000mW Tx power--highest on the market!--even today in the year 2020, despite it being made originally in like 2011 or something!) and **long range** wifi adapter! That's what its specialties are: high transmit power and long range, NOT high speed!
+
+
+_Notes to self:_
+
+Don't need to do this now, since Ubuntu comes with driver support for this Realtek `RT chipset 3070, rev 0201` now. (See `dmesg` output after plugging in this Wifi adapter to see that it is the 3070 chipset).
+
+References:
+
+1. https://askubuntu.com/questions/148767/how-do-i-install-the-ralink-rt3070-wireless-driver/148786#148786
+
+    sudo apt update
+    sudo apt install build-essential flex bison
+    tar -xjvf 2011_0719_RT3070_RT3370_RT5370_RT5372_Linux_STA_V2.5.0.3_DPO.bz2
+    cd 2011_0719_RT3070_RT3370_RT5370_RT5372_Linux_STA_V2.5.0.3_DPO
+
+
+## Alfa AWUS036AC 802.11ac Long Range AC1200 Dual Band 2.4GHz/5GHz WiFi USB adapter
+
+**INSTALL DRIVER:**
+
+todo
+
+    tar -xvf AWUS036AC_036EAC_ACH_linux_v4.3.2_11100.20140411.tar
+    cd AWUS036AC_036EAC_ACH_linux_v4.3.2_11100.20140411
+
+
+**CONNECT AND CONFIGURE:**
+
+See and follow the instructions for the "AWUS036NH" adapter above.
+
 
 
 
