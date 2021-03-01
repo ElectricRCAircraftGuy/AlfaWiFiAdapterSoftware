@@ -1,10 +1,12 @@
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FElectricRCAircraftGuy%2FAlfaWiFiAdapterSoftware&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 # Repo Status
 
 Ready for use. 
 
 The entire contents of multiple Alfa driver DVDs have been uploaded here, containing Windows, Mac, and Linux drivers for Alfa wifi adapters and products. 
 
-DRIVER INSTALLATION INSTRUCTIONS FOR THE AWUS036AC, HOWEVER, ARE A **WORK IN PROGRESS**.
+DRIVER INSTALLATION INSTRUCTIONS FOR THE AWUS036AC, HOWEVER, ARE A <s>**WORK IN PROGRESS**</s>. Update 28 Feb. 2021: I've given up trying to get this 36AC 2.4/5GHz wifi adapter to work properly and reliably on Linux. If you have a good recommendation for an alternative high-speed 5GHz adapter, please do tell. See my notes below where I start with ["as of 28 Feb. 2021"](#28feb2021).
 
 
 # AlfaWiFiAdapterSoftware
@@ -354,6 +356,7 @@ When viewing the output from `iwconfig`, a bit rate of \~174 Mbps is normal for 
 
 On a **5GHz network**...todo.
 
+<a name="28feb2021"></a>
 **_...as of 28 Feb. 2021 I still can't get this adapter to work properly and reliably on Linux. I'm giving up and looking to buy another adapter that works better with Linux Ubuntu (perhaps the Panda adapters?--but they seem old and low-tech too). If you figure out this Alfa adapter, or have other adapter recommendations for me or are willing to share your experience with me, please open an "Issue" or Pull Request on GitHub here to let me know. Thanks._**
 
 
