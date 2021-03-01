@@ -6,7 +6,7 @@ Ready for use.
 
 The entire contents of multiple Alfa driver DVDs have been uploaded here, containing Windows, Mac, and Linux drivers for Alfa wifi adapters and products. 
 
-DRIVER INSTALLATION INSTRUCTIONS FOR THE AWUS036AC, HOWEVER, ARE A <s>**WORK IN PROGRESS**</s>. Update 28 Feb. 2021: I've given up trying to get this 36AC 2.4/5GHz wifi adapter to work properly and reliably on Linux. If you have a good recommendation for an alternative high-speed 5GHz adapter, please do tell. See my notes below where I start with ["as of 28 Feb. 2021"](#28feb2021).
+DRIVER INSTALLATION INSTRUCTIONS FOR THE AWUS036AC, HOWEVER, ARE A <s>**WORK IN PROGRESS**</s>. Update 28 Feb. 2021: I've given up trying to get this 36AC 2.4/5GHz wifi adapter to work properly and reliably on Linux. If you have a good recommendation for an alternative high-speed 5GHz adapter WHICH PREFERABLY ALSO HAS AN EXTERNAL ANTENNA connector, please do tell. See my notes below where I start with ["as of 28 Feb. 2021"](#28feb2021).
 
 
 # AlfaWiFiAdapterSoftware
