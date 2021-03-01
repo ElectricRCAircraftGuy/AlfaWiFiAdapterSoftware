@@ -244,7 +244,7 @@ NA. The device is just plug-and-play on Ubuntu now. You don't have to manually i
     ```
 
     <a name="AWUS036NH_speed"></a>
-    _Maximum real-life speeds (even at extremely close range) for this Alfa AWUS036NH 2.4GHz USB wifi adapter are_ **\~5\~15 Mbps download** and **\~8\~20 Mbps upload**. It is NOT a high-speed adapter. Instead, it is a **high power** (2000mW Tx power--highest on the market!--even today in the year 2021, despite it being made originally in like 2011 or something!) and **long range** wifi adapter! That's what its specialties are: _high transmit power_ and _long range_, NOT high speed! 
+    _Maximum real-life speeds (even at extremely close range) for this Alfa AWUS036NH 2.4GHz USB wifi adapter are_ **\~5\~20 Mbps download (usually closer to 5 Mbps, but also depends highly on the quality and transmit power of your router)** and **\~8\~20 Mbps upload**. It is NOT a high-speed adapter. Instead, it is a **high power** (2000mW Tx power--highest on the market!--even today in the year 2021, despite it being made originally in like 2011 or something!) and **long range** wifi adapter! That's what its specialties are: _high transmit power_ and _long range_, NOT high speed! 
 
     Again, as far as _speed_ and wifi technology is concerned, this adapter is actually _very old_ and _very slow._ Despite that, and despite its age, however, it is still perhaps _the most powerful consumer wifi adapter available on the market today_, even as of Feb. 2021.
 
