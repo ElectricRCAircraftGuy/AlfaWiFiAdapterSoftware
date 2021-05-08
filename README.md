@@ -24,6 +24,7 @@ www.ElectricRCAircraftGuy.com
 <summary><b>(click to expand or hide)</b></summary>
 <!-- MarkdownTOC -->
 
+1. [All of my Wifi adapter repos:](#all-of-my-wifi-adapter-repos)
 1. [Wiki Instructions](#wiki-instructions)
 1. [My Instructions](#my-instructions)
 1. [Alfa Driver DVDs](#alfa-driver-dvds)
@@ -43,6 +44,18 @@ www.ElectricRCAircraftGuy.com
 
 <!-- /MarkdownTOC -->
 </details>
+
+
+<a id="all-of-my-wifi-adapter-repos"></a>
+# All of my Wifi adapter repos:
+
+- **If you are using Linux and desire a high-speed WiFi adapter, I recommend [this BrosTrend Wifi adapter](https://amzn.to/33qXt9i) above all others! It installs with a simple 1-line or 3-line command and has an excellent installation script, as well as great performance, speed, and range.** 
+- If you are using Linux and need a Wifi adapter which is _plug-and-play_ and requires NO driver installation, _and_ are okay with it being a bit slower than the BrosTrend one above, then buy a [Panda Wifi adapter like this one](https://amzn.to/2Q0JnZd) instead.
+
+My Wifi Repositories:
+1. [BrosTrendWifiAdapterSoftware](https://github.com/ElectricRCAircraftGuy/BrosTrendWifiAdapterSoftware) [this repo] - (BEST WIFI ADAPTER FOR LINUX, HANDS-DOWN!)
+1. [AlfaWiFiAdapterSoftware](https://github.com/ElectricRCAircraftGuy/AlfaWiFiAdapterSoftware)
+1. [RealtekWiFiAdapterSoftware](https://github.com/ElectricRCAircraftGuy/RealtekWiFiAdapterSoftware)
 
 
 <a id="wiki-instructions"></a>
